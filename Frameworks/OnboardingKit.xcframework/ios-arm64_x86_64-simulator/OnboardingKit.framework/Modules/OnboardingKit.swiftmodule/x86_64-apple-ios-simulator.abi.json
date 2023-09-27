@@ -126,18 +126,18 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Lottie",
+        "printedName": "Lottie",
         "declKind": "Import",
         "moduleName": "OnboardingKit",
         "declAttributes": [
-          "RawDocComment"
+          "ImplementationOnly"
         ]
       },
       {
         "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "OnboardingKit"
       },
@@ -2080,7 +2080,7 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/OBNKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 798,
       "length": 2,
       "value": "\"\""
     },
