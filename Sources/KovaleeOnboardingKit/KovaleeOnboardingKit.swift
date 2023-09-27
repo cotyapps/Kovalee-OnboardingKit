@@ -11,14 +11,14 @@ public struct KovaleeOnboardingKit: View {
 		file: String,
 		onEventTrigger: ((OnboardingEvent) -> Void)? = nil,
 		onDismiss: @escaping ([String: String]) -> Void
-	) throws {
+	) {
 		self.file = file
 		self.triggeredEvent = onEventTrigger
 		self.onDismiss = onDismiss
 	}
 	
 	public var body: some View {
-		try! OnboadingView(
+		OnboadingView(
 			file: file,
 			onEventTrigger: triggeredEvent,
 			onDismiss: onDismiss
