@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KovaleeOnboardingKit'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'KovaleeOnboardingKit is an iOS framework that helps you quicly create an onboarding for your app.'
   s.description  = <<-DESC
                      KovaleeOnboardingKit is an iOS framework that helps you quicly create an onboarding for your app. Just create a configuration.json file and feed it into the view and you are good to go.
