@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Lottie.framework/Info.plist</key>
+		<data>
+		pYfk5J6CdZHXhwTzYOY8FED1cNU=
+		</data>
+		<key>Frameworks/Lottie.framework/Lottie</key>
+		<data>
+		48Th+nU+B+jihfXcONsFk9EUvmU=
+		</data>
+		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
+		<data>
+		DoPsshaMaEI7SIcTpo2qKsDHZ04=
+		</data>
 		<key>Headers/OnboardingKit-Swift.h</key>
 		<data>
 		o0wyQv4wbuwLfIxsI9o4hGzI/Mo=
@@ -30,7 +42,7 @@
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qV6LKICZCPHmSMOGhFo1b5p/29c=
+		bw13sRKGqzteHVLbv4LIQ1jn61I=
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +62,7 @@
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EtCeGPxfAsG2xiQiVIB09jlnJH0=
+		Rr/dpUelWMZwrXvIXMC6aE04/9o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +71,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Lottie.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5UqWioqzqDghleKG/B4YMT5syO3YtFwK0mcTPakQ/FA=
+			</data>
+		</dict>
+		<key>Frameworks/Lottie.framework/Lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0xxwQXw0Dxr67ixHbDQ22a1c7plEWJiKGzVYLxf47U4=
+			</data>
+		</dict>
+		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QD01uKPfKAUlA1vSkS2YVXLgjJWEom9jhxAHJsWJThA=
+			</data>
+		</dict>
 		<key>Headers/OnboardingKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -98,7 +131,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4MDPwlnjxRCakE8xYyW9NEsJ012GbFGXBrKIpD7EPac=
+			gRjpzXsrS2ZJM2iAaLzyUo22zScRGz7lirBIumfqdkw=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tb6S/7IdmPCoFgbjMjBHPJkSqTkyQwQvgFwZQ02eKTU=
+			70J0lF8lqW4x+GfYoguPUx8HstU6fK63fvDQ6cFWBTQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

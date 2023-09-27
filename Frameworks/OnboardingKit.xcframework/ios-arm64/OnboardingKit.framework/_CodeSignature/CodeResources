@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Lottie.framework/Info.plist</key>
+		<data>
+		CN6w3FVoY02GoiqxitNVAS+FZIE=
+		</data>
+		<key>Frameworks/Lottie.framework/Lottie</key>
+		<data>
+		uaExRdHkD/H6PJ7GpGyHqhQyTiY=
+		</data>
+		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
+		<data>
+		3KQMM4By8xSruaCetcBFAjoJZqc=
+		</data>
 		<key>Headers/OnboardingKit-Swift.h</key>
 		<data>
 		WM3BYi16wK9d0cMuOQXfIZbi65c=
@@ -30,7 +42,7 @@
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tHApKiIVZa2c3sYF15kMw1QxuuA=
+		4QkdPsq/V4R+Rt0rpEy4yNntCVI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,6 +51,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Lottie.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f1HjAWiSTKa9cd8x6Fc7G+jSWuqNxPcV1qUEm8fg/fM=
+			</data>
+		</dict>
+		<key>Frameworks/Lottie.framework/Lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VRx6nR+iBHIg6o5fV4RImFdU3QTCo4SvdhXPeLPCBdg=
+			</data>
+		</dict>
+		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9MoGVvqr/jwd2IN4w1vLa60vUGxrqJTz0ZVT45CkJcg=
+			</data>
+		</dict>
 		<key>Headers/OnboardingKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -78,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4LkEsIzJfQinYzffwSX0PVeqa4120fYaAxj9sYaoans=
+			C9wafOPONrkF4GtUSIMUlOEvwvHCIxGsAhq+SIREOqw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
