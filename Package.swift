@@ -7,12 +7,15 @@ let package = Package(
     name: "KovaleeOnboardingKit",
 	platforms: [
 			.iOS(.v16)
-		],
+	],
 	products: [
 		.library(
 			name: "KovaleeOnboardingKit",
 			targets: [
-				"KovaleeOnboardingKit",
+				"OnboadingKit",
+				"Lottie",
+				"_LottieStub",
+				"_OnboardingKitStub"
 			]
 		)
 	],
@@ -22,12 +25,11 @@ let package = Package(
 			name: "OnboadingKit",
 			path: "./Frameworks/OnboardingKit.xcframework"
 		),
-		
-		.target(
-			name: "KovaleeOnboardingKit",
-			dependencies: [
-				"OnboadingKit"
-			]
-		)
+		.binaryTarget(
+			name: "Lottie",
+			path: "./Frameworks/Lottie.xcframework"
+		),
+		.target(name: "_LottieStub"),
+		.target(name: "_OnboardingKitStub")
 	]
 )

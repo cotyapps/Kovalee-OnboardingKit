@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '14.3'
   s.swift_version    = '5.7'
-  s.source_files     =  "Sources/KovaleeOnboardingKit/**/*.swift"
-
-  s.vendored_frameworks = ['Frameworks/OnboardingKit.xcframework']
+  
+  s.source_files     =  "Sources/**/*.swift"
+  s.vendored_frameworks = ['Frameworks/OnboardingKit.xcframework', 'Frameworks/Lottie.xcframework']
 end
