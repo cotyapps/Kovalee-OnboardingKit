@@ -41,6 +41,10 @@
 	<dict>
 		<key>Headers/OnboardingKit-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WM3BYi16wK9d0cMuOQXfIZbi65c=
+			</data>
 			<key>hash2</key>
 			<data>
 			DbMVHpfCUK/xLLiwVqYBRnz5EKyPakbRXL6Tz62lqz0=
@@ -48,6 +52,10 @@
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nRxbkY6DbSd8Oh7gBVnm5Q9DHc0=
+			</data>
 			<key>hash2</key>
 			<data>
 			CsvurjUJUULm8HReXAZdAK5+10+sCFi9lTuPAKtJe4w=
@@ -55,6 +63,10 @@
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KzLxsKxUFC1qCrNiDtsIvN1ZURQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			swCAPKETg6PBiLbdnM+SmKgBWmhbH44Z0/+Gr6vjw5U=
@@ -62,6 +74,10 @@
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SKvyF4ozxAgJHBWmVhbdSLE0GfI=
+			</data>
 			<key>hash2</key>
 			<data>
 			g6FVzDtufNfuqFUkihUZlIcs1wnSh5u/l4v6HJ2cA7g=
@@ -69,6 +85,10 @@
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KzLxsKxUFC1qCrNiDtsIvN1ZURQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			swCAPKETg6PBiLbdnM+SmKgBWmhbH44Z0/+Gr6vjw5U=
@@ -76,6 +96,10 @@
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4QkdPsq/V4R+Rt0rpEy4yNntCVI=
+			</data>
 			<key>hash2</key>
 			<data>
 			C9wafOPONrkF4GtUSIMUlOEvwvHCIxGsAhq+SIREOqw=
@@ -83,6 +107,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Voj/83eFTt9GmU59aLZ+ReIGXoY=
+			</data>
 			<key>hash2</key>
 			<data>
 			6UCLnUpC5ztLo5BsDZj+4thZwDB8k65uUA4hlaclLkw=
