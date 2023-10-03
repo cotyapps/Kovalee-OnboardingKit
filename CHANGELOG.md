@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.6] - 2023-09-28
+### :bug: Bug Fixes
+- [`702ba30`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/702ba3022698536afe8a81c8b9a81279e552855c) - trying fixing lottie with static library *(commit by [@fto-k](https://github.com/fto-k))*
+- [`14c5e83`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/14c5e8397f2316a9b1436b5547ab6ee803852b2c) - posible fix for lottie import *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.2.5] - 2023-09-28
 ### :bug: Bug Fixes
 - [`378cfe0`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/378cfe02c6d18703c158330bb60e02445cd29737) - removed lottie framework embedding *(commit by [@fto-k](https://github.com/fto-k))*
@@ -30,3 +36,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.2.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.2.0...0.2.1
 [0.2.4]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.2.3...0.2.4
 [0.2.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.2.4...0.2.5
+[0.2.6]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.2.5...0.2.6
