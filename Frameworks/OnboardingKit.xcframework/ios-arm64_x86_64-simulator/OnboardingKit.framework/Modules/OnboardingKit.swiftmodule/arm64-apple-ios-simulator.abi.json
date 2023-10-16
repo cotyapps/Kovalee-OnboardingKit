@@ -1436,56 +1436,56 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1221,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1355,
+      "offset": 1361,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1719,
+      "offset": 1725,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1762,
+      "offset": 1768,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1781,
+      "offset": 1787,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2082,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2091,
+      "offset": 2097,
       "length": 1,
       "value": "\" %\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2449,
+      "offset": 2455,
       "length": 2,
       "value": "20"
     },
@@ -3074,49 +3074,70 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 841,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 903,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
-      "kind": "Array",
-      "offset": 907,
-      "length": 75,
-      "value": "[\"First Step\", \"Second Step\", \"Third Step\", \"Forth Step\"]"
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 12,
+      "value": "\"First Step\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 1000,
+      "offset": 1160,
+      "length": 13,
+      "value": "\"Second Step\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 12,
+      "value": "\"Third Step\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 12,
+      "value": "\"Forth Step\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
       "length": 26,
       "value": "\"This is a loading Screen\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1330,
       "length": 18,
       "value": "\"Loading Complete\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
-      "offset": 1090,
+      "offset": 1374,
       "length": 33,
       "value": "\"This Step has completed loading\""
     },
@@ -3214,84 +3235,84 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Array",
-      "offset": 1529,
+      "offset": 1571,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2620,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 2814,
+      "offset": 2885,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2863,
+      "offset": 2934,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 2938,
+      "offset": 3009,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2987,
+      "offset": 3058,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3062,
+      "offset": 3133,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3111,
+      "offset": 3182,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3186,
+      "offset": 3257,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3235,
+      "offset": 3306,
       "length": 2,
       "value": "20"
     },
@@ -3627,35 +3648,42 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 448,
       "length": 6,
       "value": "\"hour\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 486,
+      "offset": 481,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 519,
       "length": 6,
       "value": "\"year\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 567,
+      "offset": 552,
       "length": 5,
       "value": "\"min\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 570,
       "length": 1,
       "value": "0"
     },
@@ -3668,113 +3696,169 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
-      "kind": "IntegerLiteral",
+      "kind": "StringLiteral",
       "offset": 607,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 623,
+      "offset": 662,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
-      "kind": "Dictionary",
-      "offset": 663,
-      "length": 3,
+      "kind": "Array",
+      "offset": 702,
+      "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1143,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1299,
+      "offset": 1200,
+      "length": 5,
+      "value": "\"min\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1464,
       "length": 7,
       "value": "\"fruit\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1318,
+      "offset": 1483,
       "length": 48,
       "value": "\"What are your favourite fruits and vegetables?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1384,
+      "offset": 1549,
       "length": 97,
       "value": "\"We use this information to personalize your experience by offering you relevant recommendations\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
-      "kind": "Dictionary",
-      "offset": 1507,
-      "length": 84,
-      "value": "[(\"vegetables\", [\"Tomatoes\", \"Carrots\"]), (\"fruits\", [\"Apples\", \"Lemons\"])]"
+      "kind": "StringLiteral",
+      "offset": 1701,
+      "length": 12,
+      "value": "\"vegetables\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "Array",
+      "offset": 1723,
+      "length": 23,
+      "value": "[\"Tomatoes\", \"Carrots\"]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1776,
+      "length": 8,
+      "value": "\"fruits\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "Array",
+      "offset": 1794,
+      "length": 20,
+      "value": "[\"Apples\", \"Lemons\"]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1931,
       "length": 18,
       "value": "\"What time is it?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 2057,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1846,
+      "offset": 2075,
       "length": 28,
       "value": "\"What's your date of birth?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1982,
+      "offset": 2211,
       "length": 6,
       "value": "\"year\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 2229,
       "length": 29,
       "value": "\"What is your year of birth?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 2054,
+      "offset": 2283,
       "length": 4,
       "value": "1950"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 2065,
+      "offset": 2294,
       "length": 4,
       "value": "2050"
     }
