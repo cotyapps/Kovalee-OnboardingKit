@@ -13,6 +13,7 @@ public struct Configuration {
 }
 public struct OnboadingView : SwiftUI.View {
   public init(file: Swift.String, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public init(url: Foundation.URL, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   public init(configuration: OnboardingKit.Configuration, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
