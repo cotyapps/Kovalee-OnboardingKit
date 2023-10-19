@@ -3348,57 +3348,78 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2742,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 2885,
+      "offset": 2943,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2934,
+      "offset": 2992,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3009,
+      "offset": 3067,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3058,
+      "offset": 3116,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3133,
+      "offset": 3191,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3182,
+      "offset": 3240,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3257,
+      "offset": 3315,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3306,
+      "offset": 3364,
       "length": 2,
       "value": "20"
     },
