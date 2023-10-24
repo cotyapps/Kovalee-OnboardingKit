@@ -455,18 +455,24 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "NavigationView",
-                        "printedName": "SwiftUI.NavigationView<some SwiftUI.View>",
+                        "name": "NavigationStack",
+                        "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
                         "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationPath",
+                            "printedName": "SwiftUI.NavigationPath",
+                            "usr": "s:7SwiftUI14NavigationPathV"
+                          },
                           {
                             "kind": "TypeNominal",
                             "name": "OpaqueTypeArchetype",
@@ -481,7 +487,7 @@
                             ]
                           }
                         ],
-                        "usr": "s:7SwiftUI14NavigationViewV"
+                        "usr": "s:7SwiftUI15NavigationStackV"
                       },
                       {
                         "kind": "TypeNominal",
@@ -535,18 +541,24 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "NavigationView",
-                            "printedName": "SwiftUI.NavigationView<some SwiftUI.View>",
+                            "name": "NavigationStack",
+                            "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
                             "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationPath",
+                                "printedName": "SwiftUI.NavigationPath",
+                                "usr": "s:7SwiftUI14NavigationPathV"
+                              },
                               {
                                 "kind": "TypeNominal",
                                 "name": "OpaqueTypeArchetype",
@@ -561,7 +573,7 @@
                                 ]
                               }
                             ],
-                            "usr": "s:7SwiftUI14NavigationViewV"
+                            "usr": "s:7SwiftUI15NavigationStackV"
                           },
                           {
                             "kind": "TypeNominal",
@@ -628,18 +640,24 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "NavigationView",
-                            "printedName": "SwiftUI.NavigationView<some SwiftUI.View>",
+                            "name": "NavigationStack",
+                            "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
                             "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationPath",
+                                "printedName": "SwiftUI.NavigationPath",
+                                "usr": "s:7SwiftUI14NavigationPathV"
+                              },
                               {
                                 "kind": "TypeNominal",
                                 "name": "OpaqueTypeArchetype",
@@ -654,7 +672,7 @@
                                 ]
                               }
                             ],
-                            "usr": "s:7SwiftUI14NavigationViewV"
+                            "usr": "s:7SwiftUI15NavigationStackV"
                           },
                           {
                             "kind": "TypeNominal",
@@ -2656,140 +2674,140 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 1670,
+      "offset": 1671,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 1676,
+      "offset": 1677,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 2211,
+      "offset": 2212,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 2428,
+      "offset": 2429,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2877,
+      "offset": 2878,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2906,
+      "offset": 2907,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 3128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3426,
+      "offset": 3427,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3594,
+      "offset": 3595,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 3690,
+      "offset": 3691,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3759,
+      "offset": 3760,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3837,
+      "offset": 3838,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3934,
+      "offset": 3935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 4028,
+      "offset": 4029,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4097,
+      "offset": 4098,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4312,
+      "offset": 4313,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4817,
+      "offset": 4818,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4922,
+      "offset": 4923,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 4955,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 4985,
       "length": 2,
       "value": "\"\""
     },
