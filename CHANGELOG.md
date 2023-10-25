@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.5] - 2023-10-25
+### :bug: Bug Fixes
+- [`be87e08`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/be87e0808bc580e25915cab64bd70f1f3851f213) - possible UI fix for ReactNative *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.3.2] - 2023-10-20
 ### :bug: Bug Fixes
 - [`14980f0`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/14980f03aa8974e2cc25b936b60922f0582e9916) - Fixed WelcomeStep image size, Year PickerStep output, luminance algorithm *(commit by [@fto-k](https://github.com/fto-k))*
@@ -73,3 +78,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.3.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.2.11...0.3.0
 [0.3.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.0...0.3.1
 [0.3.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.1...0.3.2
+[0.3.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.4...0.3.5
