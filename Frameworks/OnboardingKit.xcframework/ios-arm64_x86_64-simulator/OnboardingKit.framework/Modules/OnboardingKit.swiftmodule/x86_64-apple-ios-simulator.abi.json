@@ -186,8 +186,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "OnboadingView",
-        "printedName": "OnboadingView",
+        "name": "OnboardingView",
+        "printedName": "OnboardingView",
         "children": [
           {
             "kind": "Constructor",
@@ -196,9 +196,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OnboadingView",
-                "printedName": "OnboardingKit.OnboadingView",
-                "usr": "s:13OnboardingKit13OnboadingViewV"
+                "name": "OnboardingView",
+                "printedName": "OnboardingKit.OnboardingView",
+                "usr": "s:13OnboardingKit0A4ViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -267,8 +267,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OnboardingKit13OnboadingViewV4file14onEventTrigger0F7DismissACSS_yAA0aG0VcSgySDyS2SGctcfc",
-            "mangledName": "$s13OnboardingKit13OnboadingViewV4file14onEventTrigger0F7DismissACSS_yAA0aG0VcSgySDyS2SGctcfc",
+            "usr": "s:13OnboardingKit0A4ViewV4file14onEventTrigger0E7DismissACSS_yAA0aF0VcSgySDyS2SGctcfc",
+            "mangledName": "$s13OnboardingKit0A4ViewV4file14onEventTrigger0E7DismissACSS_yAA0aF0VcSgySDyS2SGctcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "AccessControl"
@@ -282,9 +282,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OnboadingView",
-                "printedName": "OnboardingKit.OnboadingView",
-                "usr": "s:13OnboardingKit13OnboadingViewV"
+                "name": "OnboardingView",
+                "printedName": "OnboardingKit.OnboardingView",
+                "usr": "s:13OnboardingKit0A4ViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -353,8 +353,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OnboardingKit13OnboadingViewV3url14onEventTrigger0F7DismissAC10Foundation3URLV_yAA0aG0VcSgySDyS2SGctcfc",
-            "mangledName": "$s13OnboardingKit13OnboadingViewV3url14onEventTrigger0F7DismissAC10Foundation3URLV_yAA0aG0VcSgySDyS2SGctcfc",
+            "usr": "s:13OnboardingKit0A4ViewV3url14onEventTrigger0E7DismissAC10Foundation3URLV_yAA0aF0VcSgySDyS2SGctcfc",
+            "mangledName": "$s13OnboardingKit0A4ViewV3url14onEventTrigger0E7DismissAC10Foundation3URLV_yAA0aF0VcSgySDyS2SGctcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "AccessControl"
@@ -368,9 +368,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "OnboadingView",
-                "printedName": "OnboardingKit.OnboadingView",
-                "usr": "s:13OnboardingKit13OnboadingViewV"
+                "name": "OnboardingView",
+                "printedName": "OnboardingKit.OnboardingView",
+                "usr": "s:13OnboardingKit0A4ViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -439,8 +439,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OnboardingKit13OnboadingViewV13configuration14onEventTrigger0F7DismissAcA13ConfigurationV_yAA0aG0VcSgySDyS2SGctcfc",
-            "mangledName": "$s13OnboardingKit13OnboadingViewV13configuration14onEventTrigger0F7DismissAcA13ConfigurationV_yAA0aG0VcSgySDyS2SGctcfc",
+            "usr": "s:13OnboardingKit0A4ViewV13configuration14onEventTrigger0E7DismissAcA13ConfigurationV_yAA0aF0VcSgySDyS2SGctcfc",
+            "mangledName": "$s13OnboardingKit0A4ViewV13configuration14onEventTrigger0E7DismissAcA13ConfigurationV_yAA0aF0VcSgySDyS2SGctcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "AccessControl"
@@ -525,8 +525,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13OnboardingKit13OnboadingViewV4bodyQrvp",
-            "mangledName": "$s13OnboardingKit13OnboadingViewV4bodyQrvp",
+            "usr": "s:13OnboardingKit0A4ViewV4bodyQrvp",
+            "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "Custom",
@@ -611,8 +611,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13OnboardingKit13OnboadingViewV4bodyQrvg",
-                "mangledName": "$s13OnboardingKit13OnboadingViewV4bodyQrvg",
+                "usr": "s:13OnboardingKit0A4ViewV4bodyQrvg",
+                "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvg",
                 "moduleName": "OnboardingKit",
                 "accessorKind": "get"
               }
@@ -620,8 +620,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13OnboardingKit13OnboadingViewV",
-        "mangledName": "$s13OnboardingKit13OnboadingViewV",
+        "usr": "s:13OnboardingKit0A4ViewV",
+        "mangledName": "$s13OnboardingKit0A4ViewV",
         "moduleName": "OnboardingKit",
         "declAttributes": [
           "AccessControl"
@@ -2646,161 +2646,161 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 249,
+      "offset": 250,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "Dictionary",
-      "offset": 298,
+      "offset": 299,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
+      "offset": 346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 378,
+      "offset": 379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 1671,
+      "offset": 1672,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 1677,
+      "offset": 1678,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2213,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 2429,
+      "offset": 2430,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2884,
+      "offset": 2885,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 3105,
+      "offset": 3106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3404,
+      "offset": 3406,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3572,
+      "offset": 3574,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 3668,
+      "offset": 3670,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3737,
+      "offset": 3739,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3815,
+      "offset": 3817,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3912,
+      "offset": 3914,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 4006,
+      "offset": 4008,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4075,
+      "offset": 4077,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4290,
+      "offset": 4292,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4795,
+      "offset": 4797,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4900,
+      "offset": 4902,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4932,
+      "offset": 4934,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4962,
+      "offset": 4964,
       "length": 2,
       "value": "\"\""
     },

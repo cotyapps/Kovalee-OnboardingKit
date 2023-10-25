@@ -11,14 +11,14 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct Configuration {
 }
-public struct OnboadingView : SwiftUI.View {
+public struct OnboardingView : SwiftUI.View {
   public init(file: Swift.String, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   public init(url: Foundation.URL, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   public init(configuration: OnboardingKit.Configuration, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit13OnboadingViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit0A4ViewV4bodyQrvp", 0) __
 }
 public struct OnboardingEvent {
   public var name: Swift.String
