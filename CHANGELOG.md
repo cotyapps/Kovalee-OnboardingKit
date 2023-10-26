@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.8] - 2023-10-26
+### :bug: Bug Fixes
+- [`490c750`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/490c75000749f57d26f67a7e916a7fa18b32933d) - fixed placeholder image *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.3.7] - 2023-10-26
 ### :bug: Bug Fixes
 - [`041041d`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/041041d954787d5460ab3e51ae6e1dd84c6d5e52) - fixed a few UI details *(commit by [@fto-k](https://github.com/fto-k))*
@@ -91,3 +96,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.3.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.4...0.3.5
 [0.3.6]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.5...0.3.6
 [0.3.7]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.6...0.3.7
+[0.3.8]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.7...0.3.8
