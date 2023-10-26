@@ -455,88 +455,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NavigationStack",
-                        "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "NavigationPath",
-                            "printedName": "SwiftUI.NavigationPath",
-                            "usr": "s:7SwiftUI14NavigationPathV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "OpaqueTypeArchetype",
-                            "printedName": "some SwiftUI.View",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "View",
-                                "printedName": "SwiftUI.View",
-                                "usr": "s:7SwiftUI4ViewP"
-                              }
-                            ]
-                          }
-                        ],
-                        "usr": "s:7SwiftUI15NavigationStackV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_EnvironmentKeyWritingModifier",
-                        "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "SwiftUI.Color?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Color",
-                                "printedName": "SwiftUI.Color",
-                                "usr": "s:7SwiftUI5ColorV"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_AppearanceActionModifier",
-                    "printedName": "SwiftUI._AppearanceActionModifier",
-                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
-                  }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit0A4ViewV4bodyQrvp",
-            "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -608,6 +527,115 @@
                       }
                     ],
                     "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AppearanceActionModifier",
+                    "printedName": "SwiftUI._AppearanceActionModifier",
+                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit0A4ViewV4bodyQrvp",
+            "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationStack",
+                                "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NavigationPath",
+                                    "printedName": "SwiftUI.NavigationPath",
+                                    "usr": "s:7SwiftUI14NavigationPathV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "OpaqueTypeArchetype",
+                                    "printedName": "some SwiftUI.View",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "View",
+                                        "printedName": "SwiftUI.View",
+                                        "usr": "s:7SwiftUI4ViewP"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15NavigationStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUI.Color?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_AppearanceActionModifier",
+                            "printedName": "SwiftUI._AppearanceActionModifier",
+                            "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AppearanceActionModifier",
+                        "printedName": "SwiftUI._AppearanceActionModifier",
+                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
                   }
                 ],
                 "declKind": "Accessor",
@@ -640,61 +668,75 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "NavigationStack",
-                            "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "NavigationPath",
-                                "printedName": "SwiftUI.NavigationPath",
-                                "usr": "s:7SwiftUI14NavigationPathV"
+                                "name": "NavigationStack",
+                                "printedName": "SwiftUI.NavigationStack<SwiftUI.NavigationPath, some SwiftUI.View>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NavigationPath",
+                                    "printedName": "SwiftUI.NavigationPath",
+                                    "usr": "s:7SwiftUI14NavigationPathV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "OpaqueTypeArchetype",
+                                    "printedName": "some SwiftUI.View",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "View",
+                                        "printedName": "SwiftUI.View",
+                                        "usr": "s:7SwiftUI4ViewP"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15NavigationStackV"
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "OpaqueTypeArchetype",
-                                "printedName": "some SwiftUI.View",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "View",
-                                    "printedName": "SwiftUI.View",
-                                    "usr": "s:7SwiftUI4ViewP"
+                                    "name": "Optional",
+                                    "printedName": "SwiftUI.Color?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
                                   }
-                                ]
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
                               }
                             ],
-                            "usr": "s:7SwiftUI15NavigationStackV"
+                            "usr": "s:7SwiftUI15ModifiedContentV"
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "_EnvironmentKeyWritingModifier",
-                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "SwiftUI.Color?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Color",
-                                    "printedName": "SwiftUI.Color",
-                                    "usr": "s:7SwiftUI5ColorV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                            "name": "_AppearanceActionModifier",
+                            "printedName": "SwiftUI._AppearanceActionModifier",
+                            "usr": "s:7SwiftUI25_AppearanceActionModifierV"
                           }
                         ],
                         "usr": "s:7SwiftUI15ModifiedContentV"
@@ -1212,132 +1254,132 @@
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1128,
-      "length": 1,
-      "value": "0"
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1145,
+      "offset": 1146,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
-      "length": 1,
-      "value": "0"
+      "offset": 1165,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 1751,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1925,
+      "offset": 1927,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2330,
+      "offset": 2430,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2496,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3599,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 3753,
+      "offset": 3873,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4212,
+      "offset": 4332,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 4304,
+      "offset": 4424,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 4310,
+      "offset": 4430,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 4378,
+      "offset": 4498,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 4384,
+      "offset": 4504,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "Dictionary",
-      "offset": 4590,
+      "offset": 4710,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "StringLiteral",
-      "offset": 4650,
+      "offset": 4770,
       "length": 7,
       "value": "\"Title\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "Dictionary",
-      "offset": 4743,
+      "offset": 4863,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "StringLiteral",
-      "offset": 4803,
+      "offset": 4923,
       "length": 21,
       "value": "\"Title + Description\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "Dictionary",
-      "offset": 4903,
+      "offset": 5023,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
       "kind": "Dictionary",
-      "offset": 5029,
+      "offset": 5149,
       "length": 3,
       "value": "[]"
     },
@@ -1505,91 +1547,91 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 800,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 874,
+      "offset": 848,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1013,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1080,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1137,
+      "offset": 1110,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1141,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1225,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1361,
+      "offset": 1365,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1725,
+      "offset": 1729,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1768,
+      "offset": 1772,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1787,
+      "offset": 1791,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2086,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2097,
+      "offset": 2101,
       "length": 1,
       "value": "\" %\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2455,
+      "offset": 2459,
       "length": 2,
       "value": "20"
     },
@@ -2226,42 +2268,42 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1536,
       "length": 30,
       "value": "\"Output changed: \""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 1578,
+      "offset": 1565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 1684,
+      "offset": 1671,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1861,
+      "offset": 1848,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1880,
+      "offset": 1867,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
       "kind": "Dictionary",
-      "offset": 1921,
+      "offset": 1908,
       "length": 3,
       "value": "[]"
     },
@@ -2275,63 +2317,70 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 768,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "FloatLiteral",
-      "offset": 823,
+      "offset": 837,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "FloatLiteral",
-      "offset": 829,
+      "offset": 843,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
-      "offset": 993,
+      "offset": 1007,
       "length": 10,
       "value": "\"Continue\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1089,
       "length": 115,
       "value": "\"Cras laoreet pretium neque, in tempus sapien. Nam urna neque, ultrices vitae dolor vel, facilisis malesuada nibh.\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1222,
       "length": 10,
       "value": "\"Continue\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
       "kind": "IntegerLiteral",
-      "offset": 463,
+      "offset": 831,
       "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 490,
-      "length": 1,
-      "value": "2"
+      "value": "5"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
       "kind": "StringLiteral",
-      "offset": 891,
+      "offset": 858,
+      "length": 16,
+      "value": "\"photo.artframe\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 13,
+      "value": "\"Placeholder\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
+      "kind": "StringLiteral",
+      "offset": 1259,
       "length": 2,
       "value": "\"\""
     },
@@ -2644,6 +2693,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 648,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
       "offset": 250,
@@ -2694,113 +2750,127 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2290,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2362,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 2430,
+      "offset": 2555,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2885,
+      "offset": 3010,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 3106,
+      "offset": 3231,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3406,
+      "offset": 3531,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3574,
+      "offset": 3699,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 3670,
+      "offset": 3795,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3739,
+      "offset": 3864,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3817,
+      "offset": 3942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3914,
+      "offset": 4039,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 4008,
+      "offset": 4133,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4077,
+      "offset": 4202,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4292,
+      "offset": 4417,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4797,
+      "offset": 4922,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4902,
+      "offset": 5027,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4934,
+      "offset": 5059,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 5089,
       "length": 2,
       "value": "\"\""
     },
@@ -2932,120 +3002,148 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 540,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 656,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 780,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1201,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1242,
       "length": 9,
       "value": "\"#8A3CAE\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1288,
       "length": 9,
       "value": "\"#E8E8E8\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1329,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1363,
       "length": 16,
       "value": "\"Helvetica-Bold\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1253,
+      "offset": 1408,
       "length": 19,
       "value": "\"Helvetica-Regular\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1296,
-      "length": 2,
-      "value": "32"
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 4,
+      "value": "\"32\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 4,
+      "value": "\"18\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1352,
+      "offset": 1511,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1379,
+      "offset": 1538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1412,
+      "offset": 1571,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1439,
+      "offset": 1598,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1472,
+      "offset": 1631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1512,
+      "offset": 1671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2781,
+      "offset": 2940,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2900,
+      "offset": 3059,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 3025,
+      "offset": 3184,
       "length": 3,
       "value": "0.5"
     },
@@ -3261,218 +3359,295 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
       "kind": "IntegerLiteral",
-      "offset": 973,
+      "offset": 1114,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1044,
+      "offset": 1185,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
       "kind": "FloatLiteral",
-      "offset": 1125,
+      "offset": 1266,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1160,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
       "kind": "StringLiteral",
-      "offset": 1306,
+      "offset": 1436,
       "length": 16,
       "value": "\"_Hello World_!\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
       "kind": "StringLiteral",
-      "offset": 1340,
+      "offset": 1470,
       "length": 73,
       "value": "\"Nam urna neque, ~~ultrices vitae dolor vel~~, facilisis malesuada nibh.\""
     },
     {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/TitleView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1556,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 326,
-      "length": 2,
-      "value": "\"\""
+      "kind": "Dictionary",
+      "offset": 279,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 417,
+      "offset": 371,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 459,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 591,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 815,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 1033,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Array",
-      "offset": 1583,
+      "kind": "IntegerLiteral",
+      "offset": 1186,
       "length": 2,
-      "value": "[]"
+      "value": "22"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1641,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 1491,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 2632,
-      "length": 4,
-      "value": "\", \""
+      "kind": "IntegerLiteral",
+      "offset": 1665,
+      "length": 2,
+      "value": "22"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2754,
+      "offset": 2397,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "StringLiteral",
-      "offset": 2770,
+      "offset": 2413,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2610,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 2950,
+      "offset": 2998,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2999,
+      "offset": 3047,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3073,
+      "length": 8,
+      "value": "\"Custom\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3074,
+      "offset": 3154,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3123,
+      "offset": 3203,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3229,
+      "length": 6,
+      "value": "\"Time\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3198,
+      "offset": 3308,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3247,
+      "offset": 3357,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3383,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "Dictionary",
-      "offset": 3322,
+      "offset": 3462,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3371,
+      "offset": 3511,
       "length": 2,
       "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3537,
+      "length": 6,
+      "value": "\"Year\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 599,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 789,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 867,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 797,
-      "length": 2,
-      "value": "16"
+      "offset": 1077,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1100,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1326,
       "length": 53,
       "value": "\"We love your smile... Let's keep it shining bright!\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/ContentPageView.swift",
       "kind": "StringLiteral",
-      "offset": 1070,
+      "offset": 1397,
       "length": 94,
       "value": "\"Smile Care gives you personalized recommendations to help you take care of your oral health.\""
     },
@@ -3941,7 +4116,7 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/InputStepView.swift",
       "kind": "Dictionary",
-      "offset": 1500,
+      "offset": 1515,
       "length": 3,
       "value": "[]"
     },
@@ -3955,35 +4130,49 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 525,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
       "kind": "StringLiteral",
-      "offset": 599,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1067,
+      "offset": 690,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1127,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1865,
+      "offset": 1925,
       "length": 2,
       "value": "20"
     },
@@ -4102,105 +4291,105 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1474,
       "length": 7,
       "value": "\"fruit\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1493,
       "length": 48,
       "value": "\"What are your favourite fruits and vegetables?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1559,
       "length": 97,
       "value": "\"We use this information to personalize your experience by offering you relevant recommendations\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1701,
+      "offset": 1711,
       "length": 12,
       "value": "\"vegetables\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "Array",
-      "offset": 1723,
+      "offset": 1733,
       "length": 23,
       "value": "[\"Tomatoes\", \"Carrots\"]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1786,
       "length": 8,
       "value": "\"fruits\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "Array",
-      "offset": 1794,
+      "offset": 1804,
       "length": 20,
       "value": "[\"Apples\", \"Lemons\"]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1913,
+      "offset": 1923,
       "length": 6,
       "value": "\"time\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 1941,
       "length": 18,
       "value": "\"What time is it?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2067,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 2075,
+      "offset": 2085,
       "length": 28,
       "value": "\"What's your date of birth?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 2211,
+      "offset": 2221,
       "length": 6,
       "value": "\"year\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "StringLiteral",
-      "offset": 2229,
+      "offset": 2239,
       "length": 29,
       "value": "\"What is your year of birth?\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 2283,
+      "offset": 2293,
       "length": 4,
       "value": "1950"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+PickerStep.swift",
       "kind": "IntegerLiteral",
-      "offset": 2294,
+      "offset": 2304,
       "length": 4,
       "value": "2050"
     }
