@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.9] - 2023-10-27
+### :sparkles: New Features
+- [`c193638`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/c1936382cc5d9d10288bfa8b48d6b9d42f67bd50) - setting mid number for year picker *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.3.8] - 2023-10-26
 ### :bug: Bug Fixes
 - [`490c750`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/490c75000749f57d26f67a7e916a7fa18b32933d) - fixed placeholder image *(commit by [@fto-k](https://github.com/fto-k))*
@@ -97,3 +102,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.3.6]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.5...0.3.6
 [0.3.7]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.6...0.3.7
 [0.3.8]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.7...0.3.8
+[0.3.9]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.8...0.3.9
