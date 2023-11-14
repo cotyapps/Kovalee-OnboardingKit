@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] - 2023-11-14
+### :sparkles: New Features
+- [`6383087`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/6383087cfd943895dcbec81a9512bcbd401a19ab) - implemented stepped navigation bar, image in select, variable in next steps *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.3.12] - 2023-11-13
 ### :bug: Bug Fixes
 - [`7055236`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/70552360d56585ce8958e1497f7c5e1c050dad5c) - fixed Int/String crash *(commit by [@fto-k](https://github.com/fto-k))*
@@ -121,3 +126,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.3.10]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.9...0.3.10
 [0.3.11]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.10...0.3.11
 [0.3.12]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.11...0.3.12
+[0.4.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.3.12...0.4.0
