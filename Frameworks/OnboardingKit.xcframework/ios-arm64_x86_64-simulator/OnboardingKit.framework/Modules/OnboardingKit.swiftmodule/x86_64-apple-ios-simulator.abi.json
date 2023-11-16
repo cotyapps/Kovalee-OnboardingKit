@@ -1628,52 +1628,30 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                        "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "NavigationView",
-                            "printedName": "SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>",
+                            "name": "OpaqueTypeArchetype",
+                            "printedName": "some SwiftUI.View",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "ModifiedContent",
-                                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "OpaqueTypeArchetype",
-                                    "printedName": "some SwiftUI.View",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "View",
-                                        "printedName": "SwiftUI.View",
-                                        "usr": "s:7SwiftUI4ViewP"
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "_PaddingLayout",
-                                    "printedName": "SwiftUI._PaddingLayout",
-                                    "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                  }
-                                ],
-                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                "name": "View",
+                                "printedName": "SwiftUI.View",
+                                "usr": "s:7SwiftUI4ViewP"
                               }
-                            ],
-                            "usr": "s:7SwiftUI14NavigationViewV"
+                            ]
                           },
                           {
                             "kind": "TypeNominal",
@@ -1736,52 +1714,30 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "NavigationView",
-                                "printedName": "SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>",
+                                "name": "OpaqueTypeArchetype",
+                                "printedName": "some SwiftUI.View",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "OpaqueTypeArchetype",
-                                        "printedName": "some SwiftUI.View",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "View",
-                                            "printedName": "SwiftUI.View",
-                                            "usr": "s:7SwiftUI4ViewP"
-                                          }
-                                        ]
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_PaddingLayout",
-                                        "printedName": "SwiftUI._PaddingLayout",
-                                        "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                    "name": "View",
+                                    "printedName": "SwiftUI.View",
+                                    "usr": "s:7SwiftUI4ViewP"
                                   }
-                                ],
-                                "usr": "s:7SwiftUI14NavigationViewV"
+                                ]
                               },
                               {
                                 "kind": "TypeNominal",
@@ -1858,52 +1814,30 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "NavigationView",
-                                "printedName": "SwiftUI.NavigationView<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>>",
+                                "name": "OpaqueTypeArchetype",
+                                "printedName": "some SwiftUI.View",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "ModifiedContent",
-                                    "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._PaddingLayout>",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "OpaqueTypeArchetype",
-                                        "printedName": "some SwiftUI.View",
-                                        "children": [
-                                          {
-                                            "kind": "TypeNominal",
-                                            "name": "View",
-                                            "printedName": "SwiftUI.View",
-                                            "usr": "s:7SwiftUI4ViewP"
-                                          }
-                                        ]
-                                      },
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "_PaddingLayout",
-                                        "printedName": "SwiftUI._PaddingLayout",
-                                        "usr": "s:7SwiftUI14_PaddingLayoutV"
-                                      }
-                                    ],
-                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                    "name": "View",
+                                    "printedName": "SwiftUI.View",
+                                    "usr": "s:7SwiftUI4ViewP"
                                   }
-                                ],
-                                "usr": "s:7SwiftUI14NavigationViewV"
+                                ]
                               },
                               {
                                 "kind": "TypeNominal",
@@ -4131,154 +4065,154 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 6789,
+      "offset": 6840,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6866,
+      "offset": 6917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6938,
+      "offset": 6989,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 7131,
+      "offset": 7182,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7491,
+      "offset": 7542,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 7626,
+      "offset": 7677,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 7632,
+      "offset": 7683,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8046,
+      "offset": 8097,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 8267,
+      "offset": 8318,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8567,
+      "offset": 8618,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8735,
+      "offset": 8786,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 8831,
+      "offset": 8882,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8900,
+      "offset": 8951,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8978,
+      "offset": 9029,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9075,
+      "offset": 9126,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 9169,
+      "offset": 9220,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9238,
+      "offset": 9289,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9453,
+      "offset": 9504,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 9958,
+      "offset": 10009,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10063,
+      "offset": 10114,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10095,
+      "offset": 10146,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10125,
+      "offset": 10176,
       "length": 2,
       "value": "\"\""
     },
