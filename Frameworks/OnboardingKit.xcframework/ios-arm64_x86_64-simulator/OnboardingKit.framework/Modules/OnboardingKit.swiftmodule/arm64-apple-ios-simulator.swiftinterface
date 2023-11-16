@@ -10,11 +10,36 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct CustomViewInput {
+  public var viewName: Swift.String
+  public var properties: SwiftUI.Binding<[Swift.String : Swift.String]>?
+  public var continueTrigger: SwiftUI.Binding<Swift.Bool>?
+}
+public protocol CustomStepProtocol : SwiftUI.View {
+  var continueTrigger: SwiftUI.Binding<Swift.Bool>? { get }
+  var parameters: SwiftUI.Binding<[Swift.String : Swift.String]>? { get }
+}
+extension OnboardingKit.CustomStepProtocol {
+  public var continueTrigger: SwiftUI.Binding<Swift.Bool>? {
+    get
+  }
+  public var parameters: SwiftUI.Binding<[Swift.String : Swift.String]>? {
+    get
+  }
+}
+public struct AnyCustomStepView : OnboardingKit.CustomStepProtocol {
+  public var customAction: (() -> Swift.Void)?
+  public init<Content>(_ content: Content, customAction: (() -> Swift.Void)? = nil) where Content : OnboardingKit.CustomStepProtocol
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp", 0) __
+}
 public struct Configuration {
 }
 public struct OnboardingView : SwiftUI.View {
-  public init(file: Swift.String, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
-  public init(file: Swift.String, topPadding: CoreFoundation.CGFloat, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public init(file: Swift.String, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
+  public init(file: Swift.String, topPadding: CoreFoundation.CGFloat, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
   public init(url: Foundation.URL, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
