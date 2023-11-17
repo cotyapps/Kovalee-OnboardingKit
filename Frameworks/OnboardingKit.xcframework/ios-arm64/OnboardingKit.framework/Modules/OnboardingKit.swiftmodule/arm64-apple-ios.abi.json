@@ -4626,273 +4626,259 @@
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1165,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
-      "kind": "Dictionary",
-      "offset": 1214,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1261,
+      "offset": 1251,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1294,
+      "offset": 1284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3283,
+      "offset": 3273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3312,
+      "offset": 3302,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "Dictionary",
-      "offset": 3350,
+      "offset": 3340,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5231,
+      "offset": 5221,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "Dictionary",
-      "offset": 5269,
+      "offset": 5259,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5728,
+      "offset": 5718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5757,
+      "offset": 5747,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "Dictionary",
-      "offset": 5795,
+      "offset": 5785,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6200,
+      "offset": 6233,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 6870,
+      "offset": 6904,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 6876,
+      "offset": 6910,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 7462,
+      "offset": 7496,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7539,
+      "offset": 7573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7635,
+      "offset": 7669,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 7888,
+      "offset": 7922,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8248,
+      "offset": 8282,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 8383,
+      "offset": 8417,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 8389,
+      "offset": 8423,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8803,
+      "offset": 8837,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 9024,
+      "offset": 9058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9311,
+      "offset": 9345,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9470,
+      "offset": 9504,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9765,
+      "offset": 9799,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9933,
+      "offset": 9967,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 10029,
+      "offset": 10063,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10098,
+      "offset": 10132,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10176,
+      "offset": 10210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10273,
+      "offset": 10307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 10367,
+      "offset": 10401,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10436,
+      "offset": 10470,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10651,
+      "offset": 10685,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 11156,
+      "offset": 11190,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 11261,
+      "offset": 11295,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 11293,
+      "offset": 11327,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 11323,
+      "offset": 11357,
       "length": 2,
       "value": "\"\""
     },
