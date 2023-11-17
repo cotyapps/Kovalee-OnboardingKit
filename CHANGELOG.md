@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.2] - 2023-11-17
+### :sparkles: New Features
+- [`01879b1`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/01879b113d9f8ba7e7265588b1d1105273e0085f) - extended init for OnboardingView to accept starting step, params value and new callback triggered when a new step will be displayed *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.5.1] - 2023-11-16
 ### :bug: Bug Fixes
 - [`0bc96e9`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/0bc96e91f500ced9b391b626d1d3f11c662db4c9) - possible nav bar fix for RN *(commit by [@fto-k](https://github.com/fto-k))*
@@ -145,3 +150,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.4.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.4.0...0.4.1
 [0.5.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.4.1...0.5.0
 [0.5.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.0...0.5.1
+[0.5.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.1...0.5.2
