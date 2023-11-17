@@ -1294,13 +1294,491 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NextStepType",
+        "printedName": "NextStepType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OnboardingKit.NextStepType.Type) -> (Swift.String, Swift.String) -> OnboardingKit.NextStepType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> OnboardingKit.NextStepType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStepType",
+                        "printedName": "OnboardingKit.NextStepType",
+                        "usr": "s:13OnboardingKit12NextStepTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, type: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OnboardingKit.NextStepType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStepType",
+                        "printedName": "OnboardingKit.NextStepType",
+                        "usr": "s:13OnboardingKit12NextStepTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OnboardingKit12NextStepTypeO6customyACSS_SStcACmF",
+            "mangledName": "$s13OnboardingKit12NextStepTypeO6customyACSS_SStcACmF",
+            "moduleName": "OnboardingKit"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OnboardingKit.NextStepType.Type) -> (Swift.String) -> OnboardingKit.NextStepType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> OnboardingKit.NextStepType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStepType",
+                        "printedName": "OnboardingKit.NextStepType",
+                        "usr": "s:13OnboardingKit12NextStepTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OnboardingKit.NextStepType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStepType",
+                        "printedName": "OnboardingKit.NextStepType",
+                        "usr": "s:13OnboardingKit12NextStepTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OnboardingKit12NextStepTypeO5otheryACSScACmF",
+            "mangledName": "$s13OnboardingKit12NextStepTypeO5otheryACSScACmF",
+            "moduleName": "OnboardingKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13OnboardingKit12NextStepTypeO",
+        "mangledName": "$s13OnboardingKit12NextStepTypeO",
+        "moduleName": "OnboardingKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NextStep",
+        "printedName": "NextStep",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NextStepType",
+                "printedName": "OnboardingKit.NextStepType",
+                "usr": "s:13OnboardingKit12NextStepTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit8NextStepV4typeAA0cD4TypeOvp",
+            "mangledName": "$s13OnboardingKit8NextStepV4typeAA0cD4TypeOvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NextStepType",
+                    "printedName": "OnboardingKit.NextStepType",
+                    "usr": "s:13OnboardingKit12NextStepTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV4typeAA0cD4TypeOvg",
+                "mangledName": "$s13OnboardingKit8NextStepV4typeAA0cD4TypeOvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NextStepType",
+                    "printedName": "OnboardingKit.NextStepType",
+                    "usr": "s:13OnboardingKit12NextStepTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV4typeAA0cD4TypeOvs",
+                "mangledName": "$s13OnboardingKit8NextStepV4typeAA0cD4TypeOvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV4typeAA0cD4TypeOvM",
+                "mangledName": "$s13OnboardingKit8NextStepV4typeAA0cD4TypeOvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "stepPosition",
+            "printedName": "stepPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit8NextStepV12stepPositionSivp",
+            "mangledName": "$s13OnboardingKit8NextStepV12stepPositionSivp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV12stepPositionSivg",
+                "mangledName": "$s13OnboardingKit8NextStepV12stepPositionSivg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV12stepPositionSivs",
+                "mangledName": "$s13OnboardingKit8NextStepV12stepPositionSivs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV12stepPositionSivM",
+                "mangledName": "$s13OnboardingKit8NextStepV12stepPositionSivM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paramsValue",
+            "printedName": "paramsValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit8NextStepV11paramsValueSDyS2SGvp",
+            "mangledName": "$s13OnboardingKit8NextStepV11paramsValueSDyS2SGvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV11paramsValueSDyS2SGvg",
+                "mangledName": "$s13OnboardingKit8NextStepV11paramsValueSDyS2SGvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV11paramsValueSDyS2SGvs",
+                "mangledName": "$s13OnboardingKit8NextStepV11paramsValueSDyS2SGvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV11paramsValueSDyS2SGvM",
+                "mangledName": "$s13OnboardingKit8NextStepV11paramsValueSDyS2SGvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit8NextStepV4nameSSvp",
+            "mangledName": "$s13OnboardingKit8NextStepV4nameSSvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit8NextStepV4nameSSvg",
+                "mangledName": "$s13OnboardingKit8NextStepV4nameSSvg",
+                "moduleName": "OnboardingKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13OnboardingKit8NextStepV",
+        "mangledName": "$s13OnboardingKit8NextStepV",
+        "moduleName": "OnboardingKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "OnboardingView",
         "printedName": "OnboardingView",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(file:onEventTrigger:onDismiss:customViewProvider:)",
+            "printedName": "init(file:startingPosition:paramsValues:onStepChange:onEventTrigger:onDismiss:customViewProvider:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1313,6 +1791,61 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((OnboardingKit.NextStep) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OnboardingKit.NextStep) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStep",
+                        "printedName": "OnboardingKit.NextStep",
+                        "usr": "s:13OnboardingKit8NextStepV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1403,8 +1936,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OnboardingKit0A4ViewV4file14onEventTrigger0E7Dismiss06customC8ProviderACSS_yAA0aF0VcSgySDyS2SGcAA013AnyCustomStepC0VAA0lC5InputVcSgtcfc",
-            "mangledName": "$s13OnboardingKit0A4ViewV4file14onEventTrigger0E7Dismiss06customC8ProviderACSS_yAA0aF0VcSgySDyS2SGcAA013AnyCustomStepC0VAA0lC5InputVcSgtcfc",
+            "usr": "s:13OnboardingKit0A4ViewV4file16startingPosition12paramsValues12onStepChange0I12EventTrigger0I7Dismiss06customC8ProviderACSS_SiSDyS2SGyAA04NextJ0VcSgyAA0aL0VcSgyAKcAA09AnyCustomjC0VAA0sC5InputVcSgtcfc",
+            "mangledName": "$s13OnboardingKit0A4ViewV4file16startingPosition12paramsValues12onStepChange0I12EventTrigger0I7Dismiss06customC8ProviderACSS_SiSDyS2SGyAA04NextJ0VcSgyAA0aL0VcSgyAKcAA09AnyCustomjC0VAA0sC5InputVcSgtcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "AccessControl",
@@ -1415,128 +1948,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(file:topPadding:onEventTrigger:onDismiss:customViewProvider:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OnboardingView",
-                "printedName": "OnboardingKit.OnboardingView",
-                "usr": "s:13OnboardingKit0A4ViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((OnboardingKit.OnboardingEvent) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(OnboardingKit.OnboardingEvent) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OnboardingEvent",
-                        "printedName": "OnboardingKit.OnboardingEvent",
-                        "usr": "s:13OnboardingKit0A5EventV"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([Swift.String : Swift.String]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyCustomStepView",
-                        "printedName": "OnboardingKit.AnyCustomStepView",
-                        "usr": "s:13OnboardingKit17AnyCustomStepViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CustomViewInput",
-                        "printedName": "OnboardingKit.CustomViewInput",
-                        "usr": "s:13OnboardingKit15CustomViewInputV"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13OnboardingKit0A4ViewV4file10topPadding14onEventTrigger0G7Dismiss06customC8ProviderACSS_14CoreFoundation7CGFloatVyAA0aH0VcSgySDyS2SGcAA013AnyCustomStepC0VAA0qC5InputVcSgtcfc",
-            "mangledName": "$s13OnboardingKit0A4ViewV4file10topPadding14onEventTrigger0G7Dismiss06customC8ProviderACSS_12CoreGraphics7CGFloatVyAA0aH0VcSgySDyS2SGcAA013AnyCustomStepC0VAA0qC5InputVcSgtcfc",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(url:onEventTrigger:onDismiss:)",
+            "printedName": "init(url:startingPosition:paramsValues:onStepChange:onEventTrigger:onDismiss:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1552,6 +1964,61 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((OnboardingKit.NextStep) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OnboardingKit.NextStep) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NextStep",
+                        "printedName": "OnboardingKit.NextStep",
+                        "usr": "s:13OnboardingKit8NextStepV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "((OnboardingKit.OnboardingEvent) -> ())?",
                 "children": [
@@ -1611,8 +2078,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OnboardingKit0A4ViewV3url14onEventTrigger0E7DismissAC10Foundation3URLV_yAA0aF0VcSgySDyS2SGctcfc",
-            "mangledName": "$s13OnboardingKit0A4ViewV3url14onEventTrigger0E7DismissAC10Foundation3URLV_yAA0aF0VcSgySDyS2SGctcfc",
+            "usr": "s:13OnboardingKit0A4ViewV3url16startingPosition12paramsValues12onStepChange0I12EventTrigger0I7DismissAC10Foundation3URLV_SiSDyS2SGyAA04NextJ0VcSgyAA0aL0VcSgyAMctcfc",
+            "mangledName": "$s13OnboardingKit0A4ViewV3url16startingPosition12paramsValues12onStepChange0I12EventTrigger0I7DismissAC10Foundation3URLV_SiSDyS2SGyAA04NextJ0VcSgyAA0aL0VcSgyAMctcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "AccessControl",
@@ -1628,88 +2095,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ModifiedContent",
-                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "OpaqueTypeArchetype",
-                            "printedName": "some SwiftUI.View",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "View",
-                                "printedName": "SwiftUI.View",
-                                "usr": "s:7SwiftUI4ViewP"
-                              }
-                            ]
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "_EnvironmentKeyWritingModifier",
-                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "SwiftUI.Color?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Color",
-                                    "printedName": "SwiftUI.Color",
-                                    "usr": "s:7SwiftUI5ColorV"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ],
-                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI15ModifiedContentV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "_AppearanceActionModifier",
-                        "printedName": "SwiftUI._AppearanceActionModifier",
-                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI15ModifiedContentV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "_AppearanceActionModifier",
-                    "printedName": "SwiftUI._AppearanceActionModifier",
-                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
-                  }
-                ],
-                "usr": "s:7SwiftUI15ModifiedContentV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit0A4ViewV4bodyQrvp",
-            "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<OnboardingKit.Step>>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1778,6 +2164,131 @@
                         "name": "_AppearanceActionModifier",
                         "printedName": "SwiftUI._AppearanceActionModifier",
                         "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ValueActionModifier",
+                    "printedName": "SwiftUI._ValueActionModifier<OnboardingKit.Step>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Step",
+                        "printedName": "OnboardingKit.Step",
+                        "usr": "s:13OnboardingKit4StepO"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI20_ValueActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit0A4ViewV4bodyQrvp",
+            "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<OnboardingKit.Step>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "OpaqueTypeArchetype",
+                                    "printedName": "some SwiftUI.View",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "View",
+                                        "printedName": "SwiftUI.View",
+                                        "usr": "s:7SwiftUI4ViewP"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_AppearanceActionModifier",
+                                "printedName": "SwiftUI._AppearanceActionModifier",
+                                "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_AppearanceActionModifier",
+                            "printedName": "SwiftUI._AppearanceActionModifier",
+                            "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<OnboardingKit.Step>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "OnboardingKit.Step",
+                            "usr": "s:13OnboardingKit4StepO"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
                       }
                     ],
                     "usr": "s:7SwiftUI15ModifiedContentV"
@@ -1814,52 +2325,66 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ModifiedContent",
-                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<OnboardingKit.Step>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ModifiedContent",
-                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>, SwiftUI._AppearanceActionModifier>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "ModifiedContent",
-                            "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._AppearanceActionModifier>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "OpaqueTypeArchetype",
-                                "printedName": "some SwiftUI.View",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "View",
-                                    "printedName": "SwiftUI.View",
-                                    "usr": "s:7SwiftUI4ViewP"
-                                  }
-                                ]
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "_EnvironmentKeyWritingModifier",
-                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Optional",
-                                    "printedName": "SwiftUI.Color?",
+                                    "name": "OpaqueTypeArchetype",
+                                    "printedName": "some SwiftUI.View",
                                     "children": [
                                       {
                                         "kind": "TypeNominal",
-                                        "name": "Color",
-                                        "printedName": "SwiftUI.Color",
-                                        "usr": "s:7SwiftUI5ColorV"
+                                        "name": "View",
+                                        "printedName": "SwiftUI.View",
+                                        "usr": "s:7SwiftUI4ViewP"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
                                       }
                                     ],
-                                    "usr": "s:Sq"
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
                                   }
                                 ],
-                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_AppearanceActionModifier",
+                                "printedName": "SwiftUI._AppearanceActionModifier",
+                                "usr": "s:7SwiftUI25_AppearanceActionModifierV"
                               }
                             ],
                             "usr": "s:7SwiftUI15ModifiedContentV"
@@ -1875,9 +2400,17 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "_AppearanceActionModifier",
-                        "printedName": "SwiftUI._AppearanceActionModifier",
-                        "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<OnboardingKit.Step>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Step",
+                            "printedName": "OnboardingKit.Step",
+                            "usr": "s:13OnboardingKit4StepO"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
                       }
                     ],
                     "usr": "s:7SwiftUI15ModifiedContentV"
@@ -3896,85 +4429,141 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5011,
+      "length": 9,
+      "value": "\"welcome\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5043,
+      "length": 11,
+      "value": "\"textInput\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5074,
+      "length": 8,
+      "value": "\"select\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5102,
+      "length": 8,
+      "value": "\"picker\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5136,
+      "length": 14,
+      "value": "\"intermediate\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5176,
+      "length": 14,
+      "value": "\"notification\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5211,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5240,
+      "length": 8,
+      "value": "\"custom\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5674,
+      "offset": 5976,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5749,
+      "offset": 6051,
       "length": 13,
       "value": "\"above_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 6084,
       "length": 13,
       "value": "\"below_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 6123,
       "length": 19,
       "value": "\"below_description\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5749,
+      "offset": 6051,
       "length": 13,
       "value": "\"above_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 6084,
       "length": 13,
       "value": "\"below_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 6123,
       "length": 19,
       "value": "\"below_description\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6273,
+      "offset": 6575,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6294,
+      "offset": 6596,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6296,
+      "offset": 6598,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6316,
+      "offset": 6618,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6318,
+      "offset": 6620,
       "length": 1,
       "value": "2"
     },
@@ -4015,204 +4604,267 @@
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 8,
+      "value": "\"custom\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 677,
+      "offset": 1104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "Dictionary",
-      "offset": 726,
+      "offset": 1153,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 773,
+      "offset": 1200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 806,
+      "offset": 1233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3224,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "Dictionary",
+      "offset": 3262,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5074,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "Dictionary",
+      "offset": 5112,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5573,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "Dictionary",
+      "offset": 5611,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5910,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 840,
+      "offset": 6499,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 6218,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
-      "kind": "FloatLiteral",
-      "offset": 6224,
+      "offset": 6505,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 7091,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6917,
+      "offset": 7168,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6989,
+      "offset": 7264,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 7182,
+      "offset": 7517,
       "length": 30,
       "value": "\"chevron.backward.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7542,
+      "offset": 7877,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 7677,
+      "offset": 8012,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 7683,
+      "offset": 8018,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8097,
+      "offset": 8432,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 8318,
+      "offset": 8653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8618,
+      "offset": 8940,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8786,
+      "offset": 9099,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9394,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9562,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 8882,
+      "offset": 9658,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8951,
+      "offset": 9727,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9029,
+      "offset": 9805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9126,
+      "offset": 9902,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "FloatLiteral",
-      "offset": 9220,
+      "offset": 9996,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9289,
+      "offset": 10065,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "IntegerLiteral",
-      "offset": 9504,
+      "offset": 10280,
       "length": 5,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10009,
+      "offset": 10785,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10114,
+      "offset": 10890,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10146,
+      "offset": 10922,
       "length": 8,
       "value": "\"option\""
     },
     {
       "filePath": "\/Users\/filippo\/Projects\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
       "kind": "StringLiteral",
-      "offset": 10176,
+      "offset": 10952,
       "length": 2,
       "value": "\"\""
     },
