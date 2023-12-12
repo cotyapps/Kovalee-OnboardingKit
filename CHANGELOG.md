@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.5] - 2023-11-30
+### :sparkles: New Features
+- [`e56786a`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/e56786a840512419c9415c280509f5963c101af1) - default icon size for SelectOption with icon, default loader animation for empty loader *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.5.4] - 2023-11-17
 ### :bug: Bug Fixes
 - [`14324aa`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/14324aa76dc0ebfa197ce756db098f292072867d) - fixed @State variable initialization *(commit by [@fto-k](https://github.com/fto-k))*
@@ -163,3 +168,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.5.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.1...0.5.2
 [0.5.3]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.2...0.5.3
 [0.5.4]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.3...0.5.4
+[0.5.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.4...0.5.5
