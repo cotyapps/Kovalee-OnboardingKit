@@ -33,7 +33,9 @@ public struct OnboardingDevModeView: View {
 					}
 					
 					Button("Refresh onboarding") {
-						retrieveOnboarding(withDocumentId: documentId)
+						Task {
+							await retrieveOnboarding(withDocumentId: documentId)
+						}
 					}
 				}
 				
