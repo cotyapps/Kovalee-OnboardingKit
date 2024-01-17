@@ -27,12 +27,14 @@ public struct OnboardingDevModeView: View {
 		VStack {
 			switch state {
 			case .none:
-				Button("Close Onboarding") {
-					onDismiss()
-				}
-				
-				Button("Refresh onboarding") {
-					state = .loading
+				VStack(spacing: 10) {
+					Button("Close Onboarding") {
+						onDismiss()
+					}
+					
+					Button("Refresh onboarding") {
+						retrieveOnboarding(withDocumentId: documentId)
+					}
 				}
 				
 			case .loading:
