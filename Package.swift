@@ -12,6 +12,7 @@ let package = Package(
 		.library(
 			name: "KovaleeOnboardingKit",
 			targets: [
+				"ONBKitDevMode",
 				"OnboadingKit",
 				"Lottie",
 				"_LottieStub",
