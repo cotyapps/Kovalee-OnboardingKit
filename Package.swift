@@ -19,8 +19,17 @@ let package = Package(
 			]
 		)
 	],
-	dependencies: [],
+	dependencies: [
+		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: Version(10, 12, 0)),
+	],
 	targets: [
+		.target(
+			name: "ONBKitDevMode",
+			dependencies: [
+				"OnboadingKit",
+				.product(name: "FirebaseFirestoreSwift", package: "firebase-ios-sdk")
+			]
+		),
 		.binaryTarget(
 			name: "OnboadingKit",
 			path: "./Frameworks/OnboardingKit.xcframework"
