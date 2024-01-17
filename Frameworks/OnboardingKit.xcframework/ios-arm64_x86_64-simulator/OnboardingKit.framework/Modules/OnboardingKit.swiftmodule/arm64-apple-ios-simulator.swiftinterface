@@ -37,6 +37,10 @@ public struct AnyCustomStepView : OnboardingKit.CustomStepProtocol {
 }
 public struct Configuration {
 }
+extension OnboardingKit.Configuration {
+  public static func loadFromFile(withName name: Swift.String) throws -> OnboardingKit.Configuration
+  public static func loadFromURL(_ url: Foundation.URL) throws -> OnboardingKit.Configuration
+}
 public enum NextStepType {
   case custom(name: Swift.String, type: Swift.String)
   case other(Swift.String)
@@ -50,8 +54,9 @@ public struct NextStep {
   }
 }
 public struct OnboardingView : SwiftUI.View {
-  public init(file: Swift.String, paddingTop: CoreFoundation.CGFloat = 0, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
+  public init(file: Swift.String, paddingTop: CoreFoundation.CGFloat = 0, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil) throws
   public init(url: Foundation.URL, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public init(configuration: OnboardingKit.Configuration, paddingTop: CoreFoundation.CGFloat = 0, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

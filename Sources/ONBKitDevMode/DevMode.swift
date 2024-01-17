@@ -7,10 +7,11 @@ public struct OnboardingDevModeView: View {
 	enum ViewState {
 		case none
 		case loading
-		case ready
-		case error
+		case ready(Configuration)
+		case error(String)
 	}
 	@State private var state: ViewState = .none
+
 	private let onboardingHandler = OnboardingHandler.live
 	
 	private let documentId: String
@@ -42,21 +43,25 @@ public struct OnboardingDevModeView: View {
 			case .loading:
 				ProgressView()
 
-			case .ready:
+			case let .ready(config):
 				OnboardingView(
-					url: OnboardingURL,
+					configuration: config,
 					onDismiss: { _ in
 						state = .none
 					}
 				)
 
-			case .error:
+			case let .error(error):
 				VStack(spacing: 10) {
-					Text("Something went wrong with the document retrieval")
-					
+					Text("Something went wrong").bold()
+						.foregroundStyle(.red)
+					Text(error)
+						.foregroundStyle(.red)
+
 					Button("Ok") {
 						state = .none
 					}
+					.padding(.top, 20)
 				}
 			}
 		}
@@ -70,9 +75,10 @@ public struct OnboardingDevModeView: View {
 		state = .loading
 		do {
 			try await onboardingHandler.retrieveOnboardingWithDocumentId(documentId)
-			state = .ready
+			let configuration = try Configuration.loadFromURL(OnboardingURL)
+			state = .ready(configuration)
 		} catch {
-			state = .error
+			state = .error(error.localizedDescription)
 		}
 	}
 }
