@@ -1,5 +1,3 @@
-import FirebaseCore
-import FirebaseFirestore
 import OnboardingKit
 import SwiftUI
 
@@ -28,34 +26,37 @@ public struct OnboardingDevModeView: View {
 			switch state {
 			case .none:
 				VStack(spacing: 10) {
-					Button("Close Onboarding") {
+					Button("Close", systemImage: "xmark") {
 						onDismiss()
 					}
-					
-					Button("Refresh onboarding") {
+					.buttonStyle(.bordered)
+
+					Button("Refresh", systemImage: "arrow.clockwise") {
 						Task {
 							await retrieveOnboarding(withDocumentId: documentId)
 						}
 					}
+					.buttonStyle(.bordered)
 				}
-				
+
 			case .loading:
 				ProgressView()
-				
+
 			case .ready:
 				OnboardingView(
 					url: OnboardingURL,
-					onEventTrigger: { _ in },
 					onDismiss: { _ in
 						state = .none
 					}
 				)
-				
+
 			case .error:
-				Text("Something went wrong with the document retrieval")
-				
-				Button("Ok") {
-					state = .none
+				VStack(spacing: 10) {
+					Text("Something went wrong with the document retrieval")
+					
+					Button("Ok") {
+						state = .none
+					}
 				}
 			}
 		}
@@ -79,43 +80,5 @@ public struct OnboardingDevModeView: View {
 #Preview {
 	OnboardingDevModeView(documentId: "") {
 		
-	}
-}
-
-struct OnboardingHandler {
-	var retrieveOnboardingWithDocumentId: (String) async throws -> Void
-}
-
-extension OnboardingHandler {
-	static var live: Self {
-		let db = Firestore.firestore()
-
-		return .init(
-			retrieveOnboardingWithDocumentId: { documentId in
-				let document = try await db.collection("onboardings")
-					.document(documentId)
-					.getDocument()
-				
-				guard
-					let data = document.data(),
-					let style = data["style"],
-					let steps = data["steps"]
-				else {
-					fatalError("Something is w")
-				}
-				
-				let formattedDocument = [
-					"style": style,
-					"steps": steps
-				]
-
-				let jsonData = try JSONSerialization.data(
-					withJSONObject: formattedDocument,
-					options: .prettyPrinted
-				)
-				
-				try jsonData.write(to: OnboardingURL)
-			}
-		)
 	}
 }
