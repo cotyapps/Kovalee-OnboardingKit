@@ -23,12 +23,17 @@ public struct OnboardingDevModeView: View {
 		self.onDismiss = onDismiss
 	}
 	
-	
 	public var body: some View {
 		VStack {
 			switch state {
 			case .none:
-				EmptyView()
+				Button("Close Onboarding") {
+					onDismiss()
+				}
+				
+				Button("Refresh onboarding") {
+					state = .loading
+				}
 				
 			case .loading:
 				ProgressView()
@@ -38,14 +43,19 @@ public struct OnboardingDevModeView: View {
 					url: OnboardingURL,
 					onEventTrigger: { _ in },
 					onDismiss: { _ in
-						onDismiss()
+						state = .none
 					}
 				)
 				
 			case .error:
 				Text("Something went wrong with the document retrieval")
+				
+				Button("Ok") {
+					state = .none
+				}
 			}
 		}
+		.navigationTitle("ONBKit Dev Mode")
 		.task {
 			await retrieveOnboarding(withDocumentId: documentId)
 		}
@@ -59,6 +69,12 @@ public struct OnboardingDevModeView: View {
 		} catch {
 			state = .error
 		}
+	}
+}
+
+#Preview {
+	OnboardingDevModeView(documentId: "") {
+		
 	}
 }
 
