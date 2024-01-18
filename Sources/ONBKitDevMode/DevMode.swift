@@ -1,3 +1,4 @@
+import CodeScanner
 import OnboardingKit
 import SwiftUI
 
@@ -11,15 +12,16 @@ public struct OnboardingDevModeView: View {
 		case error(String)
 	}
 	@State private var state: ViewState = .none
+	@State private var showQRScanner: Bool = false
 
 	private let onboardingHandler = OnboardingHandler.live
 	
-	private let documentId: String
+	@AppStorage("documentId") private var documentId: String = ""
 	private var onDismiss: () -> Void
 	
-	public init(documentId: String, onDismiss: @escaping () -> Void) {
-		self.documentId = documentId
+	public init(documentId: String = "", onDismiss: @escaping () -> Void) {
 		self.onDismiss = onDismiss
+		self.documentId = documentId
 	}
 	
 	public var body: some View {
@@ -32,12 +34,17 @@ public struct OnboardingDevModeView: View {
 					}
 					.buttonStyle(.bordered)
 
-					Button("Refresh", systemImage: "arrow.clockwise") {
-						Task {
-							await retrieveOnboarding(withDocumentId: documentId)
-						}
+					Button("Scan", systemImage: "qrcode") {
+						showQRScanner = true
 					}
 					.buttonStyle(.bordered)
+					
+					if !documentId.isEmpty {
+						Button("Refresh", systemImage: "arrow.clockwise") {
+							retrieveOnboarding()
+						}
+						.buttonStyle(.bordered)
+					}
 				}
 
 			case .loading:
@@ -65,20 +72,34 @@ public struct OnboardingDevModeView: View {
 				}
 			}
 		}
-		.navigationTitle("ONBKit Dev Mode")
-		.task {
-			await retrieveOnboarding(withDocumentId: documentId)
+		.fullScreenCover(isPresented: $showQRScanner) {
+			CodeScannerView(
+				codeTypes: [.qr]
+			) { result in
+				switch result {
+				case .success(let result):
+					self.documentId = result.string
+					self.retrieveOnboarding()
+				case .failure(let error):
+					state = .error(error.localizedDescription)
+				}
+
+				showQRScanner = false
+			}
+			.background(.black).edgesIgnoringSafeArea(.all)
 		}
 	}
 	
-	private func retrieveOnboarding(withDocumentId documentId: String) async {
-		state = .loading
-		do {
-			try await onboardingHandler.retrieveOnboardingWithDocumentId(documentId)
-			let configuration = try Configuration.loadFromURL(OnboardingURL)
-			state = .ready(configuration)
-		} catch {
-			state = .error(error.localizedDescription)
+	private func retrieveOnboarding() {
+		Task {
+			state = .loading
+			do {
+				try await onboardingHandler.retrieveOnboardingWithDocumentId(self.documentId)
+				let configuration = try Configuration.loadFromURL(OnboardingURL)
+				state = .ready(configuration)
+			} catch {
+				state = .error(error.localizedDescription)
+			}
 		}
 	}
 }
