@@ -17,7 +17,7 @@ public struct OnboardingDevModeView: View {
 	private let onboardingHandler = OnboardingHandler.live
 	
 	@AppStorage("documentId") private var documentId: String = ""
-	@AppStorage("onboardingName") private var onbName: String = "Pizza"
+	@AppStorage("onboardingName") private var onbName: String = ""
 
 	private var onDismiss: () -> Void
 	
@@ -57,15 +57,20 @@ public struct OnboardingDevModeView: View {
 						.padding(.bottom, 10)
 					}
 					HStack(spacing: 20) {
-						Button("Scan", systemImage: "qrcode") {
+						Button {
 							showQRScanner = true
+						} label: {
+							Image(systemName: "qrcode")
 						}
 						.buttonStyle(.bordered)
 
 						if !documentId.isEmpty {
-							Button("Refresh", systemImage: "arrow.clockwise") {
-								retrieveOnboarding()
-							}
+							Button(
+								action: retrieveOnboarding,
+								label: {
+									Image(systemName: "arrow.clockwise")
+								}
+							)
 							.buttonStyle(.bordered)
 						}
 					}
@@ -120,7 +125,7 @@ public struct OnboardingDevModeView: View {
 		Task {
 			state = .loading
 			do {
-				try await onboardingHandler.retrieveOnboardingWithDocumentId(self.documentId)
+				self.onbName = try await onboardingHandler.retrieveOnboardingWithDocumentId(self.documentId) ?? ""
 				let configuration = try Configuration.loadFromURL(OnboardingURL)
 				state = .ready(configuration)
 			} catch {
