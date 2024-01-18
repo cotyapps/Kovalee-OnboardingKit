@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2024-01-18
+### :sparkles: New Features
+- [`610cc75`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/610cc750fa0f70731c30478dc6328ce06536e244) - implemented dev mode for OnboardingKit *(commit by [@fto-k](https://github.com/fto-k))*
+- [`8f6c662`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/8f6c66233d38bf641c4869cf8b40fdc42481d9b7) - opened DevMode target *(commit by [@fto-k](https://github.com/fto-k))*
+- [`1b0ecdc`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/1b0ecdcc58cef884b0dc7c260aeec82abf71d8cc) - Added refresh button *(commit by [@fto-k](https://github.com/fto-k))*
+- [`c8f9d26`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/c8f9d268941a87651fc2184c0fe95dd1b8af28ca) - fixed buttons behaviour *(commit by [@fto-k](https://github.com/fto-k))*
+- [`0ec4438`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/0ec443803cfca3560053408f99669c9955519e1f) - small cosmetic updates *(commit by [@fto-k](https://github.com/fto-k))*
+- [`f6cd690`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/f6cd690dcc750a742332b727716a8a245754b024) - error handling *(commit by [@fto-k](https://github.com/fto-k))*
+- [`bb8e392`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/bb8e39271de58d49547240f32993d76d01fcac17) - added QR scanner to dev mode *(commit by [@fto-k](https://github.com/fto-k))*
+- [`d3abc49`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/d3abc496a2b2291b31d8993b791fffe35799f2fd) - small amendment on the init *(commit by [@fto-k](https://github.com/fto-k))*
+- [`4ce3fb4`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/4ce3fb47e84ba649e5b44f1a1af49cef0b7ed619) - added more info to dev mode *(commit by [@fto-k](https://github.com/fto-k))*
+
+### :bug: Bug Fixes
+- [`e5e5d97`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/e5e5d970733832d472938e7b5000242d47265036) - fixed caleed to retrieve function *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.5.9] - 2024-01-08
 ### :bug: Bug Fixes
 - [`241ff8f`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/241ff8f27863af128bcb748a8670d2573fbe2866) - fixed picker default value *(commit by [@fto-k](https://github.com/fto-k))*
@@ -193,3 +209,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.5.7]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.6...0.5.7
 [0.5.8]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.7...0.5.8
 [0.5.9]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.8...0.5.9
+[0.6.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.9...0.6.0
