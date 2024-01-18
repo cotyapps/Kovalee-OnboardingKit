@@ -19,9 +19,13 @@ public struct OnboardingDevModeView: View {
 	@AppStorage("documentId") private var documentId: String = ""
 	private var onDismiss: () -> Void
 	
-	public init(documentId: String = "", onDismiss: @escaping () -> Void) {
+	public init(documentId: String, onDismiss: @escaping () -> Void) {
 		self.onDismiss = onDismiss
 		self.documentId = documentId
+	}
+	
+	public init(onDismiss: @escaping () -> Void) {
+		self.onDismiss = onDismiss
 	}
 	
 	public var body: some View {
