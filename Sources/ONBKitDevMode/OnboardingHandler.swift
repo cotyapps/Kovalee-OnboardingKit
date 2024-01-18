@@ -3,7 +3,7 @@ import FirebaseFirestore
 import Foundation
 
 struct OnboardingHandler {
-	var retrieveOnboardingWithDocumentId: (String) async throws -> Void
+	var retrieveOnboardingWithDocumentId: (String) async throws -> String?
 }
 
 extension OnboardingHandler {
@@ -35,6 +35,8 @@ extension OnboardingHandler {
 				)
 				
 				try jsonData.write(to: OnboardingURL)
+				
+				return data["name"] as? String
 			}
 		)
 	}

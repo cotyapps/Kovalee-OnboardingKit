@@ -17,6 +17,8 @@ public struct OnboardingDevModeView: View {
 	private let onboardingHandler = OnboardingHandler.live
 	
 	@AppStorage("documentId") private var documentId: String = ""
+	@AppStorage("onboardingName") private var onbName: String = "Pizza"
+
 	private var onDismiss: () -> Void
 	
 	public init(documentId: String, onDismiss: @escaping () -> Void) {
@@ -33,23 +35,43 @@ public struct OnboardingDevModeView: View {
 			switch state {
 			case .none:
 				VStack(spacing: 10) {
-					Button("Close", systemImage: "xmark") {
-						onDismiss()
+					HStack {
+						Spacer()
+						Button(
+							action: onDismiss,
+							label: {
+								Image(systemName: "xmark")
+							}
+						)
+						.buttonStyle(.bordered)
+						.padding(20)
 					}
-					.buttonStyle(.bordered)
 
-					Button("Scan", systemImage: "qrcode") {
-						showQRScanner = true
+					Spacer()
+					if !onbName.isEmpty {
+						VStack {
+							Text("Current Onboarding:")
+							Text(onbName)
+								.font(.title2).bold()
+						}
+						.padding(.bottom, 10)
 					}
-					.buttonStyle(.bordered)
-					
-					if !documentId.isEmpty {
-						Button("Refresh", systemImage: "arrow.clockwise") {
-							retrieveOnboarding()
+					HStack(spacing: 20) {
+						Button("Scan", systemImage: "qrcode") {
+							showQRScanner = true
 						}
 						.buttonStyle(.bordered)
+
+						if !documentId.isEmpty {
+							Button("Refresh", systemImage: "arrow.clockwise") {
+								retrieveOnboarding()
+							}
+							.buttonStyle(.bordered)
+						}
 					}
+					Spacer()
 				}
+				.frame(maxHeight: .infinity)
 
 			case .loading:
 				ProgressView()
