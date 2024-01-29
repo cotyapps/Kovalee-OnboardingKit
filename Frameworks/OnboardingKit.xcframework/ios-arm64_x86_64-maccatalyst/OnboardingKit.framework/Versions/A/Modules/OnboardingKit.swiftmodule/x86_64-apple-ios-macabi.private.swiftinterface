@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios16.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OnboardingKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import OSLog
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CustomViewInput {
+  public var viewName: Swift.String
+  public var properties: SwiftUI.Binding<[Swift.String : Swift.String]>?
+  public var continueTrigger: SwiftUI.Binding<Swift.Bool>?
+}
+public protocol CustomStepProtocol : SwiftUI.View {
+  var continueTrigger: SwiftUI.Binding<Swift.Bool>? { get }
+  var parameters: SwiftUI.Binding<[Swift.String : Swift.String]>? { get }
+}
+extension OnboardingKit.CustomStepProtocol {
+  public var continueTrigger: SwiftUI.Binding<Swift.Bool>? {
+    get
+  }
+  public var parameters: SwiftUI.Binding<[Swift.String : Swift.String]>? {
+    get
+  }
+}
+public struct AnyCustomStepView : OnboardingKit.CustomStepProtocol {
+  public var customAction: (() -> Swift.Void)?
+  public init<Content>(_ content: Content, customAction: (() -> Swift.Void)? = nil) where Content : OnboardingKit.CustomStepProtocol
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp", 0) __
+}
+public struct Configuration {
+}
+extension OnboardingKit.Configuration {
+  public static func loadFromFile(withName name: Swift.String) throws -> OnboardingKit.Configuration
+  public static func loadFromURL(_ url: Foundation.URL) throws -> OnboardingKit.Configuration
+}
+public enum NextStepType {
+  case custom(name: Swift.String, type: Swift.String)
+  case other(Swift.String)
+}
+public struct NextStep {
+  public var type: OnboardingKit.NextStepType
+  public var stepPosition: Swift.Int
+  public var paramsValue: [Swift.String : Swift.String]
+  public var name: Swift.String {
+    get
+  }
+}
+public struct OnboardingView : SwiftUI.View {
+  public init(file: Swift.String, paddingTop: CoreFoundation.CGFloat = 0, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
+  public init(url: Foundation.URL, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
+  public init(configuration: OnboardingKit.Configuration, paddingTop: CoreFoundation.CGFloat = 0, startingPosition: Swift.Int = 1, paramsValues: [Swift.String : Swift.String] = [:], onStepChange: ((OnboardingKit.NextStep) -> Swift.Void)? = nil, onEventTrigger: ((OnboardingKit.OnboardingEvent) -> Swift.Void)? = nil, onDismiss: @escaping ([Swift.String : Swift.String]) -> Swift.Void, customViewProvider: ((OnboardingKit.CustomViewInput) -> OnboardingKit.AnyCustomStepView)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit0A4ViewV4bodyQrvp", 0) __
+}
+public struct OnboardingEvent {
+  public var name: Swift.String
+  public var properties: [Swift.String : Any]?
+}
+extension OnboardingKit.OnboardingEvent : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
