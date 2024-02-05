@@ -1,4 +1,0 @@
-framework module OnboardingKit {
-  header "OnboardingKit-Swift.h"
-  requires objc
-}
