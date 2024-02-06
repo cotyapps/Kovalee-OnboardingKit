@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0] - 2024-02-06
+### :sparkles: New Features
+- [`2dc4b75`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/2dc4b75c1782c5ddb82afd07e987771c6d8f347e) - added support for visionOS *(commit by [@fto-k](https://github.com/fto-k))*
+
+### :wrench: Chores
+- [`9e1a6dd`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/9e1a6ddf7d68e539b0d5e343bccdfa30620a3ca8) - enabled visionOS support *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.7.0] - 2024-01-29
 ### :wrench: Chores
 - [`2112cba`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/2112cba43e7bb4a84af9c9babd6b20cb7731236a) - testing onboaring kit on mac catalyst *(commit by [@fto-k](https://github.com/fto-k))*
@@ -222,3 +230,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.6.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.5.9...0.6.0
 [0.6.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.6.0...0.6.1
 [0.7.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.6.1...0.7.0
+[0.8.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.7.0...0.8.0
