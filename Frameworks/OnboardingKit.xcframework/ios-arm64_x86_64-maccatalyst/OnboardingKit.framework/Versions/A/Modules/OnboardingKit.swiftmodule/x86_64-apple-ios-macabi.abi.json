@@ -4037,42 +4037,42 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 497,
       "length": 30,
       "value": "\"Output changed: \""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 534,
+      "offset": 526,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 632,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2418,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2445,
+      "offset": 2437,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
       "kind": "Dictionary",
-      "offset": 2486,
+      "offset": 2478,
       "length": 3,
       "value": "[]"
     },
