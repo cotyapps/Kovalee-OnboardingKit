@@ -43,1135 +43,6 @@
         "moduleName": "OnboardingKit"
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CustomViewInput",
-        "printedName": "CustomViewInput",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "viewName",
-            "printedName": "viewName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvp",
-            "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvg",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvg",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvs",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvs",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvM",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvM",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "properties",
-            "printedName": "properties",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvp",
-            "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvg",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvg",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvs",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvs",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvM",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvM",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "continueTrigger",
-            "printedName": "continueTrigger",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<Swift.Bool>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<Swift.Bool>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvs",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvs",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvM",
-                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvM",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13OnboardingKit15CustomViewInputV",
-        "mangledName": "$s13OnboardingKit15CustomViewInputV",
-        "moduleName": "OnboardingKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CustomStepProtocol",
-        "printedName": "CustomStepProtocol",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "continueTrigger",
-            "printedName": "continueTrigger",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "mangledName": "$s13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "moduleName": "OnboardingKit",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<Swift.Bool>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "mangledName": "$s13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "moduleName": "OnboardingKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
-                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "parameters",
-            "printedName": "parameters",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
-            "mangledName": "$s13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
-            "moduleName": "OnboardingKit",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
-                "mangledName": "$s13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
-                "moduleName": "OnboardingKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
-                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "continueTrigger",
-            "printedName": "continueTrigger",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvp",
-            "moduleName": "OnboardingKit",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<Swift.Bool>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Bool",
-                            "printedName": "Swift.Bool",
-                            "usr": "s:Sb"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvg",
-                "moduleName": "OnboardingKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
-                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "parameters",
-            "printedName": "parameters",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Binding",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:7SwiftUI7BindingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
-            "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
-            "moduleName": "OnboardingKit",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Binding",
-                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ],
-                        "usr": "s:7SwiftUI7BindingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
-                "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
-                "moduleName": "OnboardingKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
-                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13OnboardingKit18CustomStepProtocolP",
-        "mangledName": "$s13OnboardingKit18CustomStepProtocolP",
-        "moduleName": "OnboardingKit",
-        "genericSig": "<τ_0_0 : SwiftUI.View>",
-        "sugared_genericSig": "<Self : SwiftUI.View>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AnyCustomStepView",
-        "printedName": "AnyCustomStepView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "customAction",
-            "printedName": "customAction",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvp",
-            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvg",
-                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvg",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvs",
-                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvs",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvM",
-                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvM",
-                "moduleName": "OnboardingKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:customAction:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyCustomStepView",
-                "printedName": "OnboardingKit.AnyCustomStepView",
-                "usr": "s:13OnboardingKit17AnyCustomStepViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13OnboardingKit17AnyCustomStepViewV_12customActionACx_yycSgtcAA0dE8ProtocolRzlufc",
-            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV_12customActionACx_yycSgtcAA0dE8ProtocolRzlufc",
-            "moduleName": "OnboardingKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
-            "sugared_genericSig": "<Content where Content : OnboardingKit.CustomStepProtocol>",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnyView",
-                "printedName": "SwiftUI.AnyView",
-                "usr": "s:7SwiftUI7AnyViewV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13OnboardingKit17AnyCustomStepViewV4bodyQrvp",
-            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp",
-            "moduleName": "OnboardingKit",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OnboardingKit17AnyCustomStepViewV4bodyQrvg",
-                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV4bodyQrvg",
-                "moduleName": "OnboardingKit",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13OnboardingKit17AnyCustomStepViewV",
-        "mangledName": "$s13OnboardingKit17AnyCustomStepViewV",
-        "moduleName": "OnboardingKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "CustomStepProtocol",
-            "printedName": "CustomStepProtocol",
-            "usr": "s:13OnboardingKit18CustomStepProtocolP",
-            "mangledName": "$s13OnboardingKit18CustomStepProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "OSLog",
-        "printedName": "OSLog",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
         "kind": "TypeDecl",
         "name": "NextStepType",
         "printedName": "NextStepType",
@@ -2494,6 +1365,1135 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomViewInput",
+        "printedName": "CustomViewInput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewName",
+            "printedName": "viewName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvp",
+            "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvg",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvs",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV8viewNameSSvM",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV8viewNameSSvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "properties",
+            "printedName": "properties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvp",
+            "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvg",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvs",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvM",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV10properties7SwiftUI7BindingVySDyS2SGGSgvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continueTrigger",
+            "printedName": "continueTrigger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvs",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvM",
+                "mangledName": "$s13OnboardingKit15CustomViewInputV15continueTrigger7SwiftUI7BindingVySbGSgvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13OnboardingKit15CustomViewInputV",
+        "mangledName": "$s13OnboardingKit15CustomViewInputV",
+        "moduleName": "OnboardingKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomStepProtocol",
+        "printedName": "CustomStepProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "continueTrigger",
+            "printedName": "continueTrigger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "mangledName": "$s13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "moduleName": "OnboardingKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "mangledName": "$s13OnboardingKit18CustomStepProtocolP15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "moduleName": "OnboardingKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
+                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
+            "mangledName": "$s13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
+            "moduleName": "OnboardingKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
+                "mangledName": "$s13OnboardingKit18CustomStepProtocolP10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
+                "moduleName": "OnboardingKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
+                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continueTrigger",
+            "printedName": "continueTrigger",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvp",
+            "moduleName": "OnboardingKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE15continueTrigger7SwiftUI7BindingVySbGSgvg",
+                "moduleName": "OnboardingKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
+                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
+            "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvp",
+            "moduleName": "OnboardingKit",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<[Swift.String : Swift.String]>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
+                "mangledName": "$s13OnboardingKit18CustomStepProtocolPAAE10parameters7SwiftUI7BindingVySDyS2SGGSgvg",
+                "moduleName": "OnboardingKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
+                "sugared_genericSig": "<Self where Self : OnboardingKit.CustomStepProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13OnboardingKit18CustomStepProtocolP",
+        "mangledName": "$s13OnboardingKit18CustomStepProtocolP",
+        "moduleName": "OnboardingKit",
+        "genericSig": "<τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Self : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyCustomStepView",
+        "printedName": "AnyCustomStepView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customAction",
+            "printedName": "customAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvp",
+            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvg",
+                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvg",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvs",
+                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvs",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit17AnyCustomStepViewV12customActionyycSgvM",
+                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV12customActionyycSgvM",
+                "moduleName": "OnboardingKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:customAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyCustomStepView",
+                "printedName": "OnboardingKit.AnyCustomStepView",
+                "usr": "s:13OnboardingKit17AnyCustomStepViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OnboardingKit17AnyCustomStepViewV_12customActionACx_yycSgtcAA0dE8ProtocolRzlufc",
+            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV_12customActionACx_yycSgtcAA0dE8ProtocolRzlufc",
+            "moduleName": "OnboardingKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
+            "sugared_genericSig": "<Content where Content : OnboardingKit.CustomStepProtocol>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OnboardingKit17AnyCustomStepViewV4bodyQrvp",
+            "mangledName": "$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp",
+            "moduleName": "OnboardingKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OnboardingKit17AnyCustomStepViewV4bodyQrvg",
+                "mangledName": "$s13OnboardingKit17AnyCustomStepViewV4bodyQrvg",
+                "moduleName": "OnboardingKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13OnboardingKit17AnyCustomStepViewV",
+        "mangledName": "$s13OnboardingKit17AnyCustomStepViewV",
+        "moduleName": "OnboardingKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStepProtocol",
+            "printedName": "CustomStepProtocol",
+            "usr": "s:13OnboardingKit18CustomStepProtocolP",
+            "mangledName": "$s13OnboardingKit18CustomStepProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2522,8 +2522,36 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "OnboardingKit"
       },
@@ -2989,36 +3017,43 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OnboardingKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "OnboardingKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "OnboardingKit"
       },
@@ -3034,718 +3069,235 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 414,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 10,
       "value": "\"Continue\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 941,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1043,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1467,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1551,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "Dictionary",
       "offset": 1771,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/WelcomeStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/WelcomeStepView.swift",
       "kind": "Dictionary",
       "offset": 1870,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/IntermediateStepView.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/IntermediateStepView.swift",
       "kind": "BooleanLiteral",
       "offset": 723,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/IntermediateStepView.swift",
       "kind": "Dictionary",
       "offset": 1117,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/IntermediateStepView.swift",
       "kind": "Dictionary",
       "offset": 1240,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/IntermediateStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/IntermediateStepView.swift",
       "kind": "Dictionary",
       "offset": 1363,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
       "offset": 306,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
       "offset": 380,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 418,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 531,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 536,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
       "offset": 685,
       "length": 5,
       "value": "330.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 974,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1139,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1206,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1236,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1267,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 1616,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
       "offset": 2321,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 2364,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
       "offset": 2383,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "StringLiteral",
       "offset": 2678,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "StringLiteral",
       "offset": 2693,
       "length": 1,
       "value": "\" %\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "Dictionary",
       "offset": 3023,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/LoadingStepView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
       "offset": 3071,
       "length": 2,
       "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 606,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 635,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 836,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 1258,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1364,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "Dictionary",
-      "offset": 2134,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/NotificationsStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2182,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/CustomStepView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2687,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/CustomStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 3304,
-      "length": 38,
-      "value": "\"Custom step hasn't loadded correctly\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/InputStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/InputStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 669,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/InputStepView.swift",
-      "kind": "Dictionary",
-      "offset": 1564,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Dictionary",
-      "offset": 279,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 459,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 615,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 839,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 1057,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1210,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 1515,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1689,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 2445,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 2461,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2596,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 2723,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 2925,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Dictionary",
-      "offset": 3130,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3179,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 3205,
-      "length": 8,
-      "value": "\"Custom\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Dictionary",
-      "offset": 3286,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3335,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 3361,
-      "length": 6,
-      "value": "\"Time\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Dictionary",
-      "offset": 3440,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3489,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 3515,
-      "length": 6,
-      "value": "\"Date\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "Dictionary",
-      "offset": 3594,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3643,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/PickerStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 3669,
-      "length": 6,
-      "value": "\"Year\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "Array",
-      "offset": 270,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 518,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1211,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1229,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1248,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 1858,
-      "length": 4,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 2034,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 2537,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 2603,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4014,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4659,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 4687,
-      "length": 16,
-      "value": "\"photo.artframe\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 4715,
-      "length": 13,
-      "value": "\"Placeholder\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5158,
-      "length": 2,
-      "value": "50"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5250,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5256,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5324,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "FloatLiteral",
-      "offset": 5330,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "Dictionary",
-      "offset": 5536,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 5596,
-      "length": 7,
-      "value": "\"Title\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "Dictionary",
-      "offset": 5689,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "StringLiteral",
-      "offset": 5749,
-      "length": 21,
-      "value": "\"Title + Description\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "Dictionary",
-      "offset": 5849,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepViews\/SelectStepView.swift",
-      "kind": "Dictionary",
-      "offset": 5975,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1839,
-      "length": 30,
-      "value": "\"Output changed: \""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1868,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "StringLiteral",
-      "offset": 1974,
-      "length": 8,
-      "value": "\"number\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2151,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2170,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/StepContainerView.swift",
-      "kind": "Dictionary",
-      "offset": 2211,
-      "length": 3,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/OnboardingView.swift",
@@ -4042,483 +3594,966 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 836,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 1258,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1364,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "Dictionary",
+      "offset": 2134,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/NotificationsStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2182,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/CustomStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2687,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/CustomStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3304,
+      "length": 38,
+      "value": "\"Custom step hasn't loadded correctly\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/InputStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/InputStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/InputStepView.swift",
+      "kind": "Dictionary",
+      "offset": 1564,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "Dictionary",
+      "offset": 279,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1210,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1689,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2445,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2461,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2596,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2723,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 2925,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "Dictionary",
+      "offset": 3130,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3179,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3205,
+      "length": 8,
+      "value": "\"Custom\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "Dictionary",
+      "offset": 3286,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3335,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3361,
+      "length": 6,
+      "value": "\"Time\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "Dictionary",
+      "offset": 3440,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3489,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3515,
+      "length": 6,
+      "value": "\"Date\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "Dictionary",
+      "offset": 3594,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3643,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/PickerStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 3669,
+      "length": 6,
+      "value": "\"Year\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "Array",
+      "offset": 270,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1211,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1229,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2034,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2537,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2603,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4014,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4659,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 4687,
+      "length": 16,
+      "value": "\"photo.artframe\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 4715,
+      "length": 13,
+      "value": "\"Placeholder\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5158,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5250,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5256,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5324,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5330,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "Dictionary",
+      "offset": 5536,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 5596,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "Dictionary",
+      "offset": 5689,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 5749,
+      "length": 21,
+      "value": "\"Title + Description\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "Dictionary",
+      "offset": 5849,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/SelectStepView.swift",
+      "kind": "Dictionary",
+      "offset": 5975,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 505,
+      "length": 30,
+      "value": "\"Output changed: \""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 8,
+      "value": "\"number\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2426,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2445,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/StepContainerView.swift",
+      "kind": "Dictionary",
+      "offset": 2486,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 324,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 340,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 347,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 358,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 414,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 441,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 453,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 512,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 523,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 541,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 545,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 557,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 652,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 679,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 705,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 734,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 941,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1100,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1105,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1135,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1140,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1170,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1175,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1237,
       "length": 15,
       "value": "\"#%02X%02X%02X\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 1378,
       "length": 3,
       "value": "\"#\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1465,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1486,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1556,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1562,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1569,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1603,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1608,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1615,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1647,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1654,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1693,
       "length": 7,
       "value": "0.03928"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1708,
       "length": 5,
       "value": "12.92"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1725,
       "length": 5,
       "value": "0.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1734,
       "length": 5,
       "value": "1.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1741,
       "length": 3,
       "value": "2.4"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1776,
       "length": 7,
       "value": "0.03928"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1791,
       "length": 5,
       "value": "12.92"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1808,
       "length": 5,
       "value": "0.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1817,
       "length": 5,
       "value": "1.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1824,
       "length": 3,
       "value": "2.4"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1859,
       "length": 7,
       "value": "0.03928"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1874,
       "length": 5,
       "value": "12.92"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1891,
       "length": 5,
       "value": "0.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1900,
       "length": 5,
       "value": "1.055"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1907,
       "length": 3,
       "value": "2.4"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1933,
       "length": 6,
       "value": "0.2126"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1960,
       "length": 6,
       "value": "0.7152"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Color+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Color+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 1987,
       "length": 6,
       "value": "0.0722"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/String+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/String+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 13,
       "value": "\"\\[(.*?)\\]\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/String+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/String+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 357,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/String+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/String+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 14,
       "value": "\"[\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/String+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/String+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 1,
       "value": "\"]\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Extensions\/Logger+Extensions.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Logger+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 125,
       "length": 14,
@@ -4588,6 +4623,27 @@
       "value": "\"Maecenas sodales tempus ex, a vulputate mi commodo at. Ut libero urna, dictum sit amet congue posuere, pulvinar at sapien.\""
     },
     {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/VideoPlayerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 215,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/VideoPlayerView.swift",
+      "kind": "StringLiteral",
+      "offset": 42,
+      "length": 11,
+      "value": "\"OnboardingKit.VideoPlayer\""
+    },
+    {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+LoadingStep.swift",
       "kind": "StringLiteral",
       "offset": 757,
@@ -4642,6 +4698,153 @@
       "offset": 1270,
       "length": 33,
       "value": "\"This Step has completed loading\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1116,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1324,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1398,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1593,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1670,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1900,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2015,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2031,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2099,
+      "length": 4,
+      "value": "0.44"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2146,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2154,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2187,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2195,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
+      "kind": "Dictionary",
+      "offset": 2304,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "@__swiftmacro_13OnboardingKit33_B78077281598007A4593F6F2C4C7F0EELl7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 35,
+      "value": "\"OnboardingKit\/VideoStepView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_13OnboardingKit33_B78077281598007A4593F6F2C4C7F0EELl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "@__swiftmacro_13OnboardingKit33_B78077281598007A4593F6F2C4C7F0EELl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "@__swiftmacro_13OnboardingKit33_B78077281598007A4593F6F2C4C7F0EELl7PreviewfMf_.swift",
+      "kind": "Dictionary",
+      "offset": 541,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
@@ -5458,217 +5661,231 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3566,
+      "offset": 3589,
       "length": 9,
       "value": "\"welcome\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 3669,
       "length": 8,
       "value": "\"select\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3723,
+      "offset": 3746,
       "length": 14,
       "value": "\"intermediate\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3818,
+      "offset": 3841,
       "length": 12,
       "value": "\"text_input\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3901,
+      "offset": 3924,
       "length": 8,
       "value": "\"picker\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 3978,
+      "offset": 4001,
       "length": 14,
       "value": "\"notification\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 4074,
+      "offset": 4097,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 4154,
+      "offset": 4179,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4253,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4347,
       "length": 47,
       "value": "\"Missing Step Type \""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 4382,
       "length": 10,
       "value": "\" definition\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4908,
+      "offset": 5061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5025,
+      "offset": 5178,
       "length": 9,
       "value": "\"welcome\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5057,
+      "offset": 5210,
       "length": 11,
       "value": "\"textInput\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5088,
+      "offset": 5241,
       "length": 8,
       "value": "\"select\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 5269,
       "length": 8,
       "value": "\"picker\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5150,
+      "offset": 5303,
       "length": 14,
       "value": "\"intermediate\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5190,
+      "offset": 5343,
       "length": 14,
       "value": "\"notification\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5378,
       "length": 9,
       "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 5254,
+      "offset": 5407,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5434,
+      "length": 7,
+      "value": "\"video\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5990,
+      "offset": 6169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6065,
+      "offset": 6244,
       "length": 13,
       "value": "\"above_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6098,
+      "offset": 6277,
       "length": 13,
       "value": "\"below_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6137,
+      "offset": 6316,
       "length": 19,
       "value": "\"below_description\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6065,
+      "offset": 6244,
       "length": 13,
       "value": "\"above_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6098,
+      "offset": 6277,
       "length": 13,
       "value": "\"below_title\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6137,
+      "offset": 6316,
       "length": 19,
       "value": "\"below_description\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6589,
+      "offset": 6768,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6610,
+      "offset": 6789,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6612,
+      "offset": 6791,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6632,
+      "offset": 6811,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 6634,
+      "offset": 6813,
       "length": 1,
       "value": "2"
     },
@@ -5883,133 +6100,133 @@
       "value": "\"pizza\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 40,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 4,
       "value": "\" with parameters: \""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 18,
       "value": "\"onboarding_start\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 19,
       "value": "\"onboarding_finish\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 22,
       "value": "\"onboarding_page_view\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 25,
       "value": "\"onboarding_tap_continue\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 19,
       "value": "\"page_view_paywall\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 26,
       "value": "\"na_notification_activate\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 28,
       "value": "\"na_notification_deactivate\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 851,
       "length": 39,
       "value": "\"Triggered Event: \""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 889,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 18,
       "value": "\"onboarding_start\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 19,
       "value": "\"onboarding_finish\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 446,
       "length": 22,
       "value": "\"onboarding_page_view\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 25,
       "value": "\"onboarding_tap_continue\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 539,
       "length": 19,
       "value": "\"page_view_paywall\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 26,
       "value": "\"na_notification_activate\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/Event.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
       "kind": "StringLiteral",
       "offset": 646,
       "length": 28,
@@ -6028,146 +6245,6 @@
       "offset": 748,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 750,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1401,
-      "length": 9,
-      "value": "\"#FFFFFF\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1442,
-      "length": 9,
-      "value": "\"#8A3CAE\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1488,
-      "length": 9,
-      "value": "\"#E8E8E8\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1529,
-      "length": 9,
-      "value": "\"#000000\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1563,
-      "length": 16,
-      "value": "\"Helvetica-Bold\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "StringLiteral",
-      "offset": 1608,
-      "length": 19,
-      "value": "\"Helvetica-Regular\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1651,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1676,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1707,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1734,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1767,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1794,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1827,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1908,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3170,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3289,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/OnboadringStyle.swift",
-      "kind": "FloatLiteral",
-      "offset": 3518,
-      "length": 3,
-      "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/MediaView.swift",
@@ -6408,63 +6485,301 @@
       "value": "[(\"name\", \"Pizza man\")]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 18,
+      "value": "\"ice breaker loop\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 5,
+      "value": "\"mov\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 15,
+      "value": "\"Powered by AI\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+VideoStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 8,
+      "value": "\"00FFFF\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 9,
+      "value": "\"#8A3CAE\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1488,
+      "length": 9,
+      "value": "\"#E8E8E8\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 16,
+      "value": "\"Helvetica-Bold\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1608,
+      "length": 19,
+      "value": "\"Helvetica-Regular\""
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1651,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1676,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1707,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1734,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1767,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1794,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/OnboadringStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 3518,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "IntegerLiteral",
       "offset": 885,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "FloatLiteral",
       "offset": 954,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "FloatLiteral",
       "offset": 960,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
       "offset": 1124,
       "length": 10,
       "value": "\"Continue\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "Dictionary",
       "offset": 1151,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
       "offset": 1226,
       "length": 115,
       "value": "\"Cras laoreet pretium neque, in tempus sapien. Nam urna neque, ultrices vitae dolor vel, facilisis malesuada nibh.\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "StringLiteral",
       "offset": 1359,
       "length": 10,
       "value": "\"Continue\""
     },
     {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/BottomView.swift",
+      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/BottomView.swift",
       "kind": "Dictionary",
       "offset": 1386,
       "length": 3,
