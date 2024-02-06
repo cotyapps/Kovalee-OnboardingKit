@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		1cyEomsAGBJkCK9y4wRKmtqfLoM=
+		vaN+gEp3hCvkmxf8aR9BA5+Vscw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,91 +15,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OeuAUnPP9GgfZag5nQwnQoO9EzBSs/W6IM2/1Vm6dvk=
+			1uOLOsU6DL8/uMO1s8zi7KfQO0J6ODFoqhbxhGik9tE=
+			</data>
+		</dict>
+		<key>Headers/OnboardingKit.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/hB1B40pK+2uMwbCF12rvEO98CVcCS8uirIRWyFT+DA=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Clf/DCF3fNw9heDuHIwzWDwM1vbV01R9HNUACHpUZBM=
+			9NZsFeJPW4QQaEIMeeuejaFrM4FQotrQWLiyOMdQbEY=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U47hhCqB8cVWuWzUk9nTA3hzuP1xTsI1lq+2zkmvcHA=
+			2t1rmoQPbWsg2jqdlMwQCLtNwuMhVB/fME1q4zTZHW0=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aQYSC2v0O6zAjFsQLKCpaw2TeblzayHprZgJlORll2w=
+			dVCkM+pq/32JdXPw8OQkKZgbN1MHWyZedxLVY1hju28=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U47hhCqB8cVWuWzUk9nTA3hzuP1xTsI1lq+2zkmvcHA=
+			2t1rmoQPbWsg2jqdlMwQCLtNwuMhVB/fME1q4zTZHW0=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02zl0g0Uh8znZv43QY0/bjHQ3Asr4/MOCK3FoMTUtAM=
+			4DZcPkDJtUoApp0PGLbFwxWZ86rQjf3vUzr3MjtvAVY=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Clf/DCF3fNw9heDuHIwzWDwM1vbV01R9HNUACHpUZBM=
+			9NZsFeJPW4QQaEIMeeuejaFrM4FQotrQWLiyOMdQbEY=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uAsmrcb3jIbHhpWztBlAkUvJbkhWf0pCuHQxZaOSLfQ=
+			m5AEwbN1TNC8V9aufQ97fAy6ENBYO7ErkU8mQdQWD1k=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2xpCPjfbYwiDl1T6Au5LzoFPUzovsKE8MB85JqOA9Y=
+			x2vHxXp8O/tuSYQWpws/G7nCFi53vHq+XH0e8cLcf7U=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uAsmrcb3jIbHhpWztBlAkUvJbkhWf0pCuHQxZaOSLfQ=
+			m5AEwbN1TNC8V9aufQ97fAy6ENBYO7ErkU8mQdQWD1k=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cydeztMXvOsP+LlkpLJbEEYPgxPf9396OyODN39PEb8=
+			sffefql6GDCHSO0k6E+5K1b97MpPnmjcOimhUAQDa/s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6UCLnUpC5ztLo5BsDZj+4thZwDB8k65uUA4hlaclLkw=
+			wYSYvczpt0E0sxS/0wFTiu5k/CXhjUMcf63o1oHGi84=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			twE2j2uSCFBzbJLuYjfjqun5CxDWjRdezT7mpTVMXFs=
+			NNFtT6mbpeAOqApbHNW284dg/CyQKr3qQMvgqD4ZEPU=
 			</data>
 		</dict>
 	</dict>

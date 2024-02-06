@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name OnboardingKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import OSLog
+@_exported import OnboardingKit
 import Swift
 import SwiftUI
 import UIKit
@@ -35,12 +36,6 @@ public struct AnyCustomStepView : OnboardingKit.CustomStepProtocol {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp", 0) __
 }
-public struct Configuration {
-}
-extension OnboardingKit.Configuration {
-  public static func loadFromFile(withName name: Swift.String) throws -> OnboardingKit.Configuration
-  public static func loadFromURL(_ url: Foundation.URL) throws -> OnboardingKit.Configuration
-}
 public enum NextStepType {
   case custom(name: Swift.String, type: Swift.String)
   case other(Swift.String)
@@ -61,6 +56,12 @@ public struct OnboardingView : SwiftUI.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit0A4ViewV4bodyQrvp", 0) __
+}
+public struct Configuration {
+}
+extension OnboardingKit.Configuration {
+  public static func loadFromFile(withName name: Swift.String) throws -> OnboardingKit.Configuration
+  public static func loadFromURL(_ url: Foundation.URL) throws -> OnboardingKit.Configuration
 }
 public struct OnboardingEvent {
   public var name: Swift.String
