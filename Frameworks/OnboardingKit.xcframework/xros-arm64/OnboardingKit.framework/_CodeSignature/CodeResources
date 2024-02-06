@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
-		lrJmMONGHlGbCUPuVfQBh4sxoIU=
+		Hex3oQsiTUkDLrDwe8ubxqpG6bk=
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		BtuM8KV/H1miHCx4uoT/bQoYhRI=
+		OVjGCUE7QLkzjt0GYJ8mAHn42HQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pKSxT2dXnWwk7cmHgj7c69ASDHc7UEICT/wAOeqOMFU=
+			R7k1thEQyA1V7Bd/Ty9xgZgoSpsWgzT1G1z8XfndDPM=
 			</data>
 		</dict>
 		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXY65/slQim70UFXU1OvLNAC98g1vSKyOFpI/c+C2Q8=
+			Trpe8gwj58Nxh0wRYFfcj9FvDZc1wepfrZa5L6IAMJA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
