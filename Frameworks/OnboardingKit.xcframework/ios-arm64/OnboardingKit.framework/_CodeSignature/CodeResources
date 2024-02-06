@@ -4,341 +4,99 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/OnboardingKit-Swift.h</key>
+		<data>
+		0oXJYzzJ34FhgRnYnXanh7Nh7po=
+		</data>
+		<key>Headers/OnboardingKit.h</key>
+		<data>
+		Ei2aze5PLjyhloJR05oKBueA+tg=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		8CNw/+oHmwS2cob4kqPwihm60U8=
+		o9wJh3I/3uTHwrBV9bxPOjtagek=
 		</data>
-		<key>Sources/OnboardingKit/CommonViews/BottomView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		igYbaP+wt/8g5DipZ0dRP8/j+RI=
+		QfieHmek5EpoXIa5IjUi/Nn3fNA=
 		</data>
-		<key>Sources/OnboardingKit/CommonViews/ContentPageView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fPhsJJvrhc9tCefanMOK53oFItw=
+		1tVFB9ySosQ04+3jQYRCJpivjSI=
 		</data>
-		<key>Sources/OnboardingKit/CommonViews/MediaView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ZENYMENvlCDDY0Pje6wuysZ4sQM=
+		QtsWPnxBMJ+fu7owmXoW6a7sOX0=
 		</data>
-		<key>Sources/OnboardingKit/CommonViews/OnboardingNavigationView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BPS/OUV5utHGRO2bSIgmSoGbQ2k=
+		1tVFB9ySosQ04+3jQYRCJpivjSI=
 		</data>
-		<key>Sources/OnboardingKit/CommonViews/TitleView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kKmwARIMJplpnzMLHj04LBUNaZ0=
+		faKqfNdqEO/yW6X0JxVE08v1Wr4=
 		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+CustomStep.swift</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		H1K0azwbF02v9Q23+/h40FETzaY=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+InputStep.swift</key>
-		<data>
-		mO9E3rD1AM2A/6CM4sgK9L/oMFw=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+IntermediateStep.swift</key>
-		<data>
-		RDp/Xev5mqgs9LV5fUYkpDiw3Jo=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+LoadingStep.swift</key>
-		<data>
-		PaZSWCmBzpVjwusOnIhiPGeG/i4=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+NotificationStep.swift</key>
-		<data>
-		CTLcSMrQXLpm5HPakejJsgBFQAA=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+PickerStep.swift</key>
-		<data>
-		HCrmLBsHXWkAxFhehh3oIQt7f80=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+SelectStep.swift</key>
-		<data>
-		LU7vB5X0cn5ETez1E1VXNwIY1U0=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel+WelcomeStep.swift</key>
-		<data>
-		QfGs0OFzWImnfzpcgQ5ImkBYNF8=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/DataModel.swift</key>
-		<data>
-		PlhqHz1hsr2YzDcamzUPiX2EfCw=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/Event.swift</key>
-		<data>
-		SpgLiCe0XQSHuVXeRw6SiLE66l8=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/JSONDataModel.swift</key>
-		<data>
-		3xxViXUHDaH5w+AVMQhksb1QUQI=
-		</data>
-		<key>Sources/OnboardingKit/DataModel/OnboadringStyle.swift</key>
-		<data>
-		/a/9O8LRsmbWEDEGlowYjBriFFo=
-		</data>
-		<key>Sources/OnboardingKit/Extensions/Color+Extensions.swift</key>
-		<data>
-		03sKIwloUd7TvACXdqnjweG68Yw=
-		</data>
-		<key>Sources/OnboardingKit/Extensions/Logger+Extensions.swift</key>
-		<data>
-		opMWqxj41TKJHb5fC6SsMd0Yg7s=
-		</data>
-		<key>Sources/OnboardingKit/Extensions/String+Extensions.swift</key>
-		<data>
-		Xa3JPWBabtC5R3v1+0nWiw8IEKU=
-		</data>
-		<key>Sources/OnboardingKit/OnboardingView.swift</key>
-		<data>
-		HNOMSHNYVkpQpPvOXkAViGU/LPE=
-		</data>
-		<key>Sources/OnboardingKit/StepContainerView.swift</key>
-		<data>
-		bgW/kgH5lBa285iJdffkAmoMXUo=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/CustomStepView.swift</key>
-		<data>
-		HRsjj4j0ErVDZylp/s66aY9bB/E=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/InputStepView.swift</key>
-		<data>
-		eieR/CxXilqDxcpFUxcNX73lqHA=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/IntermediateStepView.swift</key>
-		<data>
-		g5dsxWwaT8FituBXvgbVsWwZROI=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/LoadingStepView.swift</key>
-		<data>
-		itClHM/nHEdFYHFPg/JSKTHPvvw=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/NotificationsStepView.swift</key>
-		<data>
-		PFrRI4YoIrMGCTSIzEzGhLScagk=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/PickerStepView.swift</key>
-		<data>
-		CpnxmejmIEHA2faoXEel43dCoMI=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/SelectStepView.swift</key>
-		<data>
-		5FpPkzN5EVtoh9DsPf+43/DXoyM=
-		</data>
-		<key>Sources/OnboardingKit/StepViews/WelcomeStepView.swift</key>
-		<data>
-		ZGDjcxAPo6FKPVANjH2tNc8yz+Y=
+		DT50QUW0+YIG29xme4TeYJ43+9w=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Sources/OnboardingKit/CommonViews/BottomView.swift</key>
+		<key>Headers/OnboardingKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YFvTSdNs/wBhCMFEEZqLOud9/+BQ7lx9U6hx2b8E5KY=
+			Q01qjGRpOrNT0/cuJ/2G+9grek/0PAvv7AIapb9Ox3w=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/CommonViews/ContentPageView.swift</key>
+		<key>Headers/OnboardingKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJ6l1bxhPVy+1fE6qiFM6a6xL4O+u0zuMBSARqSjh/g=
+			/hB1B40pK+2uMwbCF12rvEO98CVcCS8uirIRWyFT+DA=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/CommonViews/MediaView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gYNtViZEB/L4VyQdi8ohkiC+Us5DthEUGWouJpB6dUk=
+			9NZsFeJPW4QQaEIMeeuejaFrM4FQotrQWLiyOMdQbEY=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/CommonViews/OnboardingNavigationView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AmGKcYRGAG/DiDpMVq5E1evj7g8eyClp3+vgMkE58A=
+			lR8e2ajQrbF9hB64Y/VlREu5Uw7GFpPiVl4OUQuZYJg=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/CommonViews/TitleView.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/eFxDKlS3DQHhbLwdLPlKChyedpKLOVMetjuUXUZIA=
+			O6L90r3JvgM4zDAe1l2NMJ1HRcIO9fNdhkYecpsDw24=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+CustomStep.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eS+ggn0Fe3fn10nmNQxrutu9TM6hDgHS+KmMKAoz+bE=
+			lR8e2ajQrbF9hB64Y/VlREu5Uw7GFpPiVl4OUQuZYJg=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+InputStep.swift</key>
+		<key>Modules/OnboardingKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L1wY2pITj0jYZKhoQPSn+ftTX+XBtIOaMVxX8odgXt4=
+			ENEBt/RvuQU9zXp0z2AXxpIpulPp9JmQQ8kM9NmCqo4=
 			</data>
 		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+IntermediateStep.swift</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6y2DGQtU76uW9MM205/Q9LOdvqC+EFzBJ+y4KGQDHY=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+LoadingStep.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3tYd7lTYxwYH/Iv06HMwBvxJjtEh/NGaGY009bi1FKQ=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+NotificationStep.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1r5oVIH00czuUFYTKs8t42urRvEWNSkFQz5/1lr32Sw=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+PickerStep.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ITeiRBW9BSPxnjcMfDDQWjqToNM6/5F0GLLX2mLawu4=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+SelectStep.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A9XCWShMminp+GrUDuw3ETMc3WpP+FSwIEvVutzVMXk=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel+WelcomeStep.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W4fdaxEKgYRNP98L1neQFyNCIn9gPDMh5bP/qLF6pDY=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/DataModel.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JajC2GUzFrqNH0VARcH08OXeEWJcZGN4bodJ/Rp5u2g=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/Event.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dVIMpo13gpzbqO+kTLJvGpskWRUJql0cavh3dOL/Buw=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/JSONDataModel.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zB+6XXjMOzATOTdaMkUsq6bEj3YyPc3/GgY/Fd37GKY=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/DataModel/OnboadringStyle.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2ObpVtIz6VzOKIw38DqBO+OzXd/N2Yg+wXidoK4qukA=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/Extensions/Color+Extensions.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cPyTnj0G5ik4PLjsB6LgfCLqSgswL2yyWxwbi0SzfJM=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/Extensions/Logger+Extensions.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1R1sARztCyc9aGwEmTN9Vwr55XuEaJJeKlkDBFztk20=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/Extensions/String+Extensions.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N/vrth9uuhJfVlm4w1ioA6oGXrMcrTrbz+Ciawt91io=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/OnboardingView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TtBfMwYMs2zGfnPfmBrLr6W5i8CvhydR0rbHLkpQb8Q=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepContainerView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xYQ7KOErPdCKtGkDQku5tNV5UDJbngnwfJzkKvzv6ok=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/CustomStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hrXXd64JrQnuMorQqiAgJzGp5JC3R20LI7E1gxUeGJI=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/InputStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			plEWhYPKta4TGth10NzXfWhqD3+muNdfmdYh1QeGt78=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/IntermediateStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DgC78QYJwM3qYoV7FMR2XQxj+9cyL1Vqv5LLbCdgV6c=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/LoadingStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hfaZ+yepOTKCUGDPGawiPNcVPVqVoIxm4+2cb8PB5ww=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/NotificationsStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dspcuddUI3m4NjBlF2aERURVBzUlCX+CDVxfJqGpGxQ=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/PickerStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6kz7ISDp2meHK5ZX8i8SDWE3kyW6iLtopEhRAUxedB8=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/SelectStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ta/GXViAICWdWURLloW1hXzNKsFqysM3pgMXzwfb7lE=
-			</data>
-		</dict>
-		<key>Sources/OnboardingKit/StepViews/WelcomeStepView.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KXliub6IRNAEXOYAwGFZJDhnm+Qq+XWAoL9gc+ybIus=
+			wYSYvczpt0E0sxS/0wFTiu5k/CXhjUMcf63o1oHGi84=
 			</data>
 		</dict>
 	</dict>

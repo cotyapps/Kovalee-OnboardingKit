@@ -14,8 +14,6 @@ let package = Package(
 			targets: [
 				"ONBKitDevMode",
 				"OnboadingKit",
-				"Lottie",
-				"_LottieStub",
 				"_OnboardingKitStub"
 			]
 		)
@@ -37,11 +35,6 @@ let package = Package(
 			name: "OnboadingKit",
 			path: "./Frameworks/OnboardingKit.xcframework"
 		),
-		.binaryTarget(
-			name: "Lottie",
-			path: "./Frameworks/Lottie.xcframework"
-		),
-		.target(name: "_LottieStub"),
 		.target(name: "_OnboardingKitStub")
 	]
 )
