@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2024-02-06
+### :sparkles: New Features
+- [`7a11373`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/7a113738a07971e6e475d971a52c726539ad0237) - implemented Video Step *(commit by [@fto-k](https://github.com/fto-k))*
+- [`583cf09`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/583cf096afd4625f0d67ad2bd459b8beab44d757) - checking weird line on navigation bar\ *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.8.0] - 2024-02-06
 ### :sparkles: New Features
 - [`2dc4b75`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/2dc4b75c1782c5ddb82afd07e987771c6d8f347e) - added support for visionOS *(commit by [@fto-k](https://github.com/fto-k))*
@@ -231,3 +237,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.6.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.6.0...0.6.1
 [0.7.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.6.1...0.7.0
 [0.8.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.7.0...0.8.0
+[0.9.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.8.0...0.9.0
