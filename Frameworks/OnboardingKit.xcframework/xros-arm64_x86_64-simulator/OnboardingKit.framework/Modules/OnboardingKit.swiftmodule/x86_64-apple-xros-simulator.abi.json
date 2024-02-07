@@ -4828,70 +4828,63 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1683,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1912,
+      "offset": 1914,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2027,
+      "offset": 2029,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2043,
+      "offset": 2045,
       "length": 4,
       "value": "0.00"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2111,
+      "offset": 2113,
       "length": 4,
       "value": "0.44"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2158,
+      "offset": 2160,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2166,
+      "offset": 2168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2199,
+      "offset": 2201,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2207,
+      "offset": 2209,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/VideoStepView.swift",
       "kind": "Dictionary",
-      "offset": 2316,
+      "offset": 2318,
       "length": 3,
       "value": "[]"
     },
