@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.2] - 2024-02-07
+### :bug: Bug Fixes
+- [`c7a16a2`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/c7a16a23076e5d310f7c65d5a3a602b8ba205045) - fixed padding in video step *(commit by [@fto-k](https://github.com/fto-k))*
+- [`6d99042`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/6d99042300b6ccfe3d7b93c88509052ddec2915c) - title on video step padding *(commit by [@fto-k](https://github.com/fto-k))*
+- [`f6d1743`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/f6d1743be04a1a727ff4043602cd6e5a0cc6c8b7) -  *(commit by [@fto-k](https://github.com/fto-k))*
+- [`c55ff9c`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/c55ff9c8e3cc2173e52aed817ee84f5575f7a3ec) -  *(commit by [@fto-k](https://github.com/fto-k))*
+- [`005ce05`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/005ce050f4eadd894074ab75b4d6127698148619) -  *(commit by [@fto-k](https://github.com/fto-k))*
+- [`52e86f3`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/52e86f340037477e42bf29b4b632b76642eb5536) -  *(commit by [@fto-k](https://github.com/fto-k))*
+- [`59f7cd1`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/59f7cd14c6691807225c5b3c8de93ecab31e2fab) -  *(commit by [@fto-k](https://github.com/fto-k))*
+- [`051224d`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/051224db5d728ea2720b6ef8dd86b13f893727ce) - changed approach *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.9.1] - 2024-02-06
 ### :sparkles: New Features
 - [`2664309`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/26643096c5eb71f3b5e276da7f4161640c290dba) - implemented multi-column select step *(commit by [@fto-k](https://github.com/fto-k))*
@@ -244,3 +256,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.8.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.7.0...0.8.0
 [0.9.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.8.0...0.9.0
 [0.9.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.0...0.9.1
+[0.9.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.1...0.9.2
