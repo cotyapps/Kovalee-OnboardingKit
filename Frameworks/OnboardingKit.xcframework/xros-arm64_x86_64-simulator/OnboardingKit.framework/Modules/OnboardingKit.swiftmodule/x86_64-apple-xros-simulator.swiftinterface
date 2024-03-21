@@ -37,6 +37,7 @@ public struct AnyCustomStepView : OnboardingKit.CustomStepProtocol {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp", 0) __
 }
+
 public struct Configuration {
 }
 extension OnboardingKit.Configuration {
