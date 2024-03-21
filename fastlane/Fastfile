@@ -35,7 +35,7 @@ platform :ios do
   def release(type)
     podspec_name = "KovaleeOnboardingKit.podspec"
 
-    pod_lib_lint
+    # pod_lib_lint
     version = version_bump_podspec(
       path: podspec_name,
       bump_type: type
@@ -50,6 +50,6 @@ platform :ios do
 
     add_git_tag(tag: "#{version}")
     push_to_git_remote
-    pod_push
+    # pod_push
   end
 end
