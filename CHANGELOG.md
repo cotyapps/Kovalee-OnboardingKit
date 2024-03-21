@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.3] - 2024-02-21
+### :bug: Bug Fixes
+- [`8a053f4`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/8a053f4dd9ae0dae06873d541669cf94659facea) - fixed multi video step *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.9.2] - 2024-02-07
 ### :bug: Bug Fixes
 - [`c7a16a2`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/c7a16a23076e5d310f7c65d5a3a602b8ba205045) - fixed padding in video step *(commit by [@fto-k](https://github.com/fto-k))*
@@ -257,3 +262,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.9.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.8.0...0.9.0
 [0.9.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.0...0.9.1
 [0.9.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.1...0.9.2
+[0.9.3]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.2...0.9.3
