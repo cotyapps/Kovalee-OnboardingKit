@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.1] - 2024-03-21
+### :bug: Bug Fixes
+- [`b2ba50e`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/b2ba50ef539513cd725b43d04a22a74cb7682677) - fixed text color for loading step *(commit by [@fto-k](https://github.com/fto-k))*
+
+### :wrench: Chores
+- [`3836370`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/38363702e25680020f70ad4e7f4e8f151708ede9) - commented out failing podspecs *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.10.0] - 2024-03-21
 ### :sparkles: New Features
 - [`a0bb863`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/a0bb8634ae5aae221ee9506086858c4abc435d4b) - updated UI for Loading Step *(commit by [@fto-k](https://github.com/fto-k))*
@@ -269,3 +277,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.9.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.1...0.9.2
 [0.9.3]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.2...0.9.3
 [0.10.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.9.3...0.10.0
+[0.10.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.0...0.10.1
