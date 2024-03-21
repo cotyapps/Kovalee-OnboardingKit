@@ -3159,133 +3159,133 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 1144,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1170,
+      "offset": 1161,
       "length": 1,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1260,
+      "offset": 1242,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1292,
       "length": 23,
       "value": "\"checkmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1469,
+      "offset": 1451,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 1468,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1492,
+      "offset": 1474,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1609,
+      "offset": 1591,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 1662,
+      "offset": 1644,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1716,
+      "offset": 1698,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 1753,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2480,
+      "offset": 2462,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2525,
+      "offset": 2507,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2546,
+      "offset": 2528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2566,
+      "offset": 2548,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "FloatLiteral",
-      "offset": 2622,
+      "offset": 2604,
       "length": 4,
       "value": "0.02"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2644,
+      "offset": 2626,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "Dictionary",
-      "offset": 2803,
+      "offset": 2785,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Steps\/LoadingStepView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2851,
+      "offset": 2833,
       "length": 2,
       "value": "20"
     },
