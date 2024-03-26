@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.5] - 2024-03-26
+### :bug: Bug Fixes
+- [`dab4e1d`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/dab4e1d9b099a88d6dfd8803fc7df50f70aad50c) - fixed welcome step mapping *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.10.4] - 2024-03-21
 ### :bug: Bug Fixes
 - [`1947ded`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/1947ded5bfa6e307fa13c4d2ab7e824d0817bdeb) - fixed select button description position *(commit by [@fto-k](https://github.com/fto-k))*
@@ -296,3 +301,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.10.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.1...0.10.2
 [0.10.3]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.2...0.10.3
 [0.10.4]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.3...0.10.4
+[0.10.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.4...0.10.5
