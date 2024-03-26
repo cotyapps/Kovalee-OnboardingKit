@@ -5812,112 +5812,112 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 860,
+      "offset": 887,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 906,
+      "offset": 958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 944,
+      "offset": 1016,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1160,
       "length": 13,
       "value": "\"Get started\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 2846,
+      "offset": 2970,
       "length": 8,
       "value": "\"Page 0\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 2874,
+      "offset": 2998,
       "length": 10,
       "value": "\"Welcome!\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 2905,
+      "offset": 3029,
       "length": 14,
       "value": "\"WelcomeImage\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 2984,
+      "offset": 3108,
       "length": 8,
       "value": "\"Page 1\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3012,
+      "offset": 3136,
       "length": 10,
       "value": "\"Welcome!\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3120,
+      "offset": 3244,
       "length": 8,
       "value": "\"Page 2\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3148,
+      "offset": 3272,
       "length": 10,
       "value": "\"Welcome!\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3255,
+      "offset": 3379,
       "length": 8,
       "value": "\"Page 3\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3283,
+      "offset": 3407,
       "length": 10,
       "value": "\"Welcome!\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3670,
       "length": 53,
       "value": "\"We love your smile... Let's keep it shining bright!\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3619,
+      "offset": 3743,
       "length": 94,
       "value": "\"Smile Care gives you personalized recommendations to help you take care of your oral health.\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 3734,
+      "offset": 3858,
       "length": 7,
       "value": "\"pizza\""
     },
