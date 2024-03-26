@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.7] - 2024-03-26
+### :sparkles: New Features
+- [`304fba8`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/304fba87d91c4debca946fbe4ebbe584a8ba7518) - Media view now supports videos *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.10.6] - 2024-03-26
 ### :bug: Bug Fixes
 - [`cdd5cf4`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/cdd5cf4d15c606a68e4e1a90a90abc0afab7eac1) - updated select description padding *(commit by [@fto-k](https://github.com/fto-k))*
@@ -308,3 +313,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.10.4]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.3...0.10.4
 [0.10.5]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.4...0.10.5
 [0.10.6]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.5...0.10.6
+[0.10.7]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.6...0.10.7
