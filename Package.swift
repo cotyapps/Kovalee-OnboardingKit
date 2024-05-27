@@ -12,18 +12,25 @@ let package = Package(
 		.library(
 			name: "KovaleeOnboardingKit",
 			targets: [
-				"OnboadingKit",
-				"_OnboardingKitStub"
+				"OnboardingKit",
+				"OnboardingKitExtras"
 			]
 		)
 	],
 	dependencies: [
+		.package(url: "https://github.com/cotyapps/Kovalee-iOS-SDK", from: Version(1, 9, 12)),
 	],
 	targets: [
 		.binaryTarget(
-			name: "OnboadingKit",
+			name: "OnboardingKit",
 			path: "./Frameworks/OnboardingKit.xcframework"
 		),
-		.target(name: "_OnboardingKitStub")
+		.target(
+			name: "OnboardingKitExtras",
+			dependencies: [
+				"OnboardingKit",
+				.product(name: "KovaleeSDK", package: "Kovalee-iOS-SDK")
+			]
+		)
 	]
 )

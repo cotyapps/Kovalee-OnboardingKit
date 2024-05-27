@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "amplitude-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/amplitude/Amplitude-Swift",
+      "state" : {
+        "revision" : "ffc348568ca6e8dbc0be0d09956ef7ca00e08068",
+        "version" : "1.5.2"
+      }
+    },
+    {
+      "identity" : "analytics-connector-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/amplitude/analytics-connector-ios.git",
+      "state" : {
+        "revision" : "e2ca17ac735bcbc48b13062484541702ef45153d",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "kovalee-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cotyapps/Kovalee-iOS-SDK",
+      "state" : {
+        "revision" : "aeacc1d345560fec523a368744ef10f5aa5337d9",
+        "version" : "1.9.15"
+      }
+    }
+  ],
+  "version" : 2
+}
