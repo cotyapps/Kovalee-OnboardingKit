@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.11.1] - 2024-04-24
+### :sparkles: New Features
+- [`af8978d`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/af8978dbaf109936a277054b70e02ac47e87603b) - enabling/disabling continue button in custom step *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.11.0] - 2024-03-26
 ### :bug: Bug Fixes
 - [`d783dee`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/d783dee953b64c151458d1df708fadbbdd2cf1f1) - removed debug console *(commit by [@fto-k](https://github.com/fto-k))*
@@ -320,3 +325,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.10.6]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.5...0.10.6
 [0.10.7]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.6...0.10.7
 [0.11.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.10.7...0.11.0
+[0.11.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.11.0...0.11.1
