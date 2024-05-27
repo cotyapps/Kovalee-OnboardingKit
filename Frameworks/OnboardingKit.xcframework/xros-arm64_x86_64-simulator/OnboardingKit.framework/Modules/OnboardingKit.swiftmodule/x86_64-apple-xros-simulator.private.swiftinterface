@@ -74,3 +74,4 @@ public struct OnboardingView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit0A4ViewV4bodyQrvp", 0) __
 }
+

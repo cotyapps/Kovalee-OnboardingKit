@@ -32,6 +32,7 @@ public struct OnboardingView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13OnboardingKit0A4ViewV4bodyQrvp", 0) __
 }
+
 public struct CustomViewInput {
   public var viewName: Swift.String
   public var properties: SwiftUI.Binding<[Swift.String : Swift.String]>?
