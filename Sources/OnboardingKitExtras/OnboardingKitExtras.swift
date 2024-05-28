@@ -1,7 +1,7 @@
 import OnboardingKit
 import KovaleeSDK
 
-extension OnboardingView {
+public extension OnboardingView {
 	init(
 		file: String,
 		paddingTop: CGFloat = 0,
