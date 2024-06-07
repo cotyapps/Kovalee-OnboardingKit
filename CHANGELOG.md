@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.12.3] - 2024-06-07
+### :bug: Bug Fixes
+- [`8e26b9c`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/8e26b9c7c4fd9c20f8c382245e873a81a8b78c57) - fix loading step in case of only 1 step *(commit by [@fto-k](https://github.com/fto-k))*
+
+
 ## [0.12.2] - 2024-05-28
 ### :bug: Bug Fixes
 - [`23b52da`](https://github.com/cotyapps/Kovalee-OnboardingKit/commit/23b52daf324c72a74ae650f6e15254b6d7ade572) - new init is now public *(commit by [@fto-k](https://github.com/fto-k))*
@@ -344,3 +349,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.12.0]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.11.1...0.12.0
 [0.12.1]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.12.0...0.12.1
 [0.12.2]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.12.1...0.12.2
+[0.12.3]: https://github.com/cotyapps/Kovalee-OnboardingKit/compare/0.12.2...0.12.3
