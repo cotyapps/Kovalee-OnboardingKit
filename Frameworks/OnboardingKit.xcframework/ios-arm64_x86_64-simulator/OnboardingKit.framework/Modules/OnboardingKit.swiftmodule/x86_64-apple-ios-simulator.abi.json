@@ -3115,49 +3115,49 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 990,
       "length": 46,
       "value": "\"Receive reminders to take care of your smile\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1054,
       "length": 90,
       "value": "\"Enjoy thousands of personalized expert tips and articles in line with your daily habits.\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1170,
       "length": 23,
       "value": "\"Turn on notifications\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 1158,
+      "offset": 1218,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "BooleanLiteral",
-      "offset": 1181,
+      "offset": 1241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1267,
       "length": 9,
       "value": "\"Not now\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+NotificationStep.swift",
       "kind": "StringLiteral",
-      "offset": 1231,
+      "offset": 1291,
       "length": 12,
       "value": "\"image_name\""
     },
