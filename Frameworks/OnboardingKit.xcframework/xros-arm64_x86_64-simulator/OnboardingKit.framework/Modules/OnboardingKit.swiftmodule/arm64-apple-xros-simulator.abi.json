@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "OnboardingKit",
+    "printedName": "OnboardingKit",
     "children": [
       {
         "kind": "Import",
@@ -422,6 +422,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -799,6 +815,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "usr": "s:7SwiftUI4ViewP",
@@ -848,6 +878,8 @@
             "moduleName": "OnboardingKit",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1004,6 +1036,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : OnboardingKit.CustomStepProtocol>",
             "sugared_genericSig": "<Content where Content : OnboardingKit.CustomStepProtocol>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1033,6 +1067,7 @@
             "mangledName": "$s13OnboardingKit17AnyCustomStepViewV4bodyQrvp",
             "moduleName": "OnboardingKit",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1070,10 +1105,26 @@
         "mangledName": "$s13OnboardingKit17AnyCustomStepViewV",
         "moduleName": "OnboardingKit",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStepProtocol",
@@ -1109,6 +1160,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1292,6 +1350,22 @@
         "moduleName": "OnboardingKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1684,6 +1758,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -1851,6 +1939,22 @@
         "moduleName": "OnboardingKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2202,6 +2306,22 @@
         "moduleName": "OnboardingKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2381,6 +2501,8 @@
             "mangledName": "$s13OnboardingKit0A4ViewV4file10paddingTop16startingPosition12paramsValues12onStepChange0K12EventTrigger0K7Dismiss06customC8ProviderACSS_12CoreGraphics7CGFloatVSiSDyS2SGyAA04NextL0VcSgyAA0aN0VcSgyAOcAA09AnyCustomlC0VAA0xC5InputVcSgtcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -2523,6 +2645,8 @@
             "mangledName": "$s13OnboardingKit0A4ViewV3url16startingPosition12paramsValues12onStepChange0I12EventTrigger0I7DismissAC10Foundation3URLV_SiSDyS2SGyAA04NextJ0VcSgyAA0aL0VcSgyAMctcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -2700,6 +2824,8 @@
             "mangledName": "$s13OnboardingKit0A4ViewV13configuration10paddingTop16startingPosition12paramsValues12onStepChange0K12EventTrigger0K7Dismiss06customC8ProviderAcA13ConfigurationV_12CoreGraphics7CGFloatVSiSDyS2SGyAA04NextL0VcSgyAA0aN0VcSgyAQcAA09AnyCustomlC0VAA0yC5InputVcSgtcfc",
             "moduleName": "OnboardingKit",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -2728,6 +2854,7 @@
             "mangledName": "$s13OnboardingKit0A4ViewV4bodyQrvp",
             "moduleName": "OnboardingKit",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2765,10 +2892,26 @@
         "mangledName": "$s13OnboardingKit0A4ViewV",
         "moduleName": "OnboardingKit",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -2797,6 +2940,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3059,41 +3209,6 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
       "kind": "StringLiteral",
-      "offset": 6552,
-      "length": 13,
-      "value": "\"above_title\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6585,
-      "length": 13,
-      "value": "\"below_title\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6624,
-      "length": 19,
-      "value": "\"below_description\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7531,
-      "length": 4,
-      "value": "\"OR\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7548,
-      "length": 5,
-      "value": "\"AND\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
       "offset": 7531,
       "length": 4,
       "value": "\"OR\""
@@ -3118,27 +3233,6 @@
       "offset": 7641,
       "length": 5,
       "value": "\"≠\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7619,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7641,
-      "length": 5,
-      "value": "\"≠\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/CommonViews\/VideoPlayerView.swift",
-      "kind": "StringLiteral",
-      "offset": 42,
-      "length": 11,
-      "value": "\"OnboardingKit.VideoPlayer\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+InputStep.swift",
@@ -3829,20 +3923,6 @@
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
       "kind": "StringLiteral",
-      "offset": 291,
-      "length": 11,
-      "value": "\"next_step\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
-      "kind": "StringLiteral",
-      "offset": 330,
-      "length": 21,
-      "value": "\"next_carrousel_page\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/DataModel\/DataModel+WelcomeStep.swift",
-      "kind": "StringLiteral",
       "offset": 2974,
       "length": 8,
       "value": "\"Page 0\""
@@ -3930,55 +4010,6 @@
       "offset": 3869,
       "length": 7,
       "value": "\"pizza\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 375,
-      "length": 18,
-      "value": "\"onboarding_start\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 409,
-      "length": 19,
-      "value": "\"onboarding_finish\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 446,
-      "length": 22,
-      "value": "\"onboarding_page_view\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 489,
-      "length": 25,
-      "value": "\"onboarding_tap_continue\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 539,
-      "length": 19,
-      "value": "\"page_view_paywall\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 588,
-      "length": 26,
-      "value": "\"na_notification_activate\""
-    },
-    {
-      "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
-      "kind": "StringLiteral",
-      "offset": 646,
-      "length": 28,
-      "value": "\"na_notification_deactivate\""
     },
     {
       "filePath": "\/Users\/filippo\/Tools\/ONBKit\/Private\/Sources\/OnboardingKit\/Utils\/Event.swift",
